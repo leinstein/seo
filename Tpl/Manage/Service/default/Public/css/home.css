@@ -1,0 +1,103 @@
+/*
+ * @Author: Richer
+ * @Date:   2017年5月30日11:46:41
+ * +----------------------------------------------------------------------
+ * | 管理端首页样式
+ * | Copyright (c) 2017 http://www.qisobao.com All rights reserved.
+ * | Author: Richer <yangzi1028@163.com>
+ * +----------------------------------------------------------------------
+ */
+
+.head-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 30px auto;
+    color: #333;
+}
+
+.bgcolor-blue {
+    background: #1E9FFF;
+}
+
+.color-blue {
+    color: #1E9FFF;
+}
+
+.bgcolor-commred {
+    background: #ff6c60;
+}
+
+.color-commred {
+    color: #ff6c60;
+}
+
+.bgcolor-dark-green {
+    background: #009688;
+}
+
+.color-dark-green {
+    color: #009688;
+}
+
+.bgcolor-yellow-green {
+    background: #5FB878;
+}
+
+.color-yellow-green {
+    color: #5FB878;
+}
+
+.bgcolor-orange {
+    background: #FF5722;
+}
+
+.color-orange {
+    color: #FF5722;
+}
+
+.bgcolor-yellow {
+    background: #F7B824;
+}
+
+.color-yellow {
+    color: #F7B824;
+}
+
+
+.symbol {
+    width: 40%;
+    padding: 1.4em 0;
+    border-radius: 4px 0px 0px 4px;
+    display: inline-block;
+    text-align: center;
+}
+
+.symbol i {
+    color: #fff;
+    font-size: 3em;
+}
+
+.value {
+    width: 58%;
+    text-align: center;
+    float: right;
+    margin-top: 2em;
+}
+
+.value h1 {
+    font-size: 1.8em;
+}
+
+.panel-heading {
+    border-bottom: 1px solid #EEE;
+    padding: 1.4em;
+}
+
+.panel-heading a {
+    color: #DDD;
+    font-weight: bold;
+}
+
+.panel-heading a:hover {
+    color: #999;
+}

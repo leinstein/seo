@@ -1,0 +1,289 @@
+@charset "utf-8";
+/**
+ +------------------------------------------------------------------------------
+ * 移动端通用样式
+ +------------------------------------------------------------------------------
+ * @author    Richer <yangzi1028@163.com>
+ * @version   2017年08月03日 11:37:20
+ +------------------------------------------------------------------------------
+ */
+ 
+ /* 頭部样式 begin ======================>*/
+ 
+ .header {
+	position: relative;
+	height: 42px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #0baae4;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	background: #0baae4;
+	text-align: center;
+	color: #fff;
+}
+.header-arrow__left {
+	position: relative;
+	float: left;
+	height: 42px;
+	margin-right: 6px;
+	/* background: url(../../img/mobile/home_icon.png) center center no-repeat;
+    background-size: 20px 17px; */
+    width: 60px;
+	line-height:42px;
+    color: #fff;
+}
+.header__center{
+    border-right: 1px solid 0bb3f2;
+    padding: 0 2%;
+    border-left: 1px solid 0bb3f2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	padding-top:20px;
+	height: 42px;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	line-height:42px;
+	font-weight:bold;
+	font-size:1.5em
+}
+
+.header-arrow__right{
+	position: relative;
+	float: right;
+	height: 42px;
+	margin-left: 6px;
+    width: 60px;
+    color: #fff;
+}
+ .header  .iconfont{
+	font-size:1.8em;
+}
+/* .header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	background: #0baae4;
+	text-align: center;
+	font: 1.2em/44px bold "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+	color: #fff;
+}
+
+.header__home {
+    float: left;
+    width: 100px;
+    font-size: 0;
+    background: url(../../img/mobile/home_icon.png) center center no-repeat;
+    background-size: 20px 17px;
+}
+.header__home a {
+    display: block;
+    border-right: 1px solid 0bb3f2;
+}
+.header__center {
+    float: left;
+    margin-left:120px;
+    height: 44px;
+    width: auto;
+}
+
+.header__center .text {
+    border-right: 1px solid 0bb3f2;
+    padding: 0 2%;
+    border-left: 1px solid 0bb3f2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.t_m_btn {
+    float: left;
+    width: 15.625%;
+    height: 44px;
+} */
+
+ /* 頭部样式 end ======================>*/
+ 
+ /* 正文样式 begin ======================>*/
+.page {
+	margin-top: 45px;
+	padding-bottom:60px;
+}
+
+.page .page__hd {
+	padding: 14px 10px 18px 10px;
+	border-bottom: 1px solid #e1e1e1;
+	box-shadow: 0 3px 5px #ddd;
+}
+
+.page .page__hd .m_en {
+	color: #0baae4;
+	font-size: 1.1em;
+	padding-bottom: 5px;
+}
+
+.page .page__hd .m_zh {
+	color: #0baae4;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.page .page__bd {
+	/*padding: 10px;*/
+	background: #f2f2f2;
+	margin-top: -2px;
+}
+section.main {
+	background: #fff;
+	/*margin: 30px auto;*/
+	/* padding-bottom: 70px; */
+}
+
+
+/* 正文样式 end ======================>*/
+
+
+/* weui-panel 样式重写 begin ======================>*/
+
+.question .weui-media-box__title {
+	margin-top: 10px;
+	font-size: 1.2em;
+	color: #333;
+	font-weight: bold;
+}
+
+.question .weui-media-box__desc {
+	margin-top: 10px;
+	font-size: 1.1em;
+	color: #333;
+	line-height: 22px;
+	/* display: -webkit-box; */
+	/* -webkit-box-orient: vertical; */
+	-webkit-line-clamp: 10;
+}
+
+
+.weui-panel__hd {
+    color: #333;
+    font-size: 14px;
+}
+
+.weui-form-preview__value {
+    padding-right: 5px;
+}
+.weui-form-preview__hd,.weui-form-preview__bd {
+ 	text-align: left;
+}
+
+.weui-media-box__desc {
+    color: #999999;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+/* weui-panel 样式重写 end ======================>*/
+
+/* form表单样式  begin ======================>*/
+.weui-label.required:after {
+    content: '*';
+    color: red;
+    font-size: 18px;
+    width: 10px;
+    height: 20px;
+    clear: both;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+    padding-top: 2px;
+}
+/* form表单样式 begin ======================>*/
+
+/* 列表样式 重写 begin ======================>*/
+.weui-cells {
+   
+   /* font-size: 1em;*/
+}
+.weui-cell__bd{
+	font-size: 1em !important;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: -1px;
+}
+/* 列表样式 重写 edn ======================>*/
+
+/* loadmore样式 重写 begin ======================>*/
+.weui-loadmore {
+    width: 100%;
+    margin: 1.5em auto;
+    line-height: 1.6em;
+    font-size: 14px;
+    text-align: center;
+}
+/* loadmore样式 重写 edn ======================>*/
+
+
+
+/* popup弹窗样式 begin ======================>*/
+.weui-popup__container {
+   z-index: 99999999999999999999;
+   background: #f2f2f2;
+}
+.weui-popup__modal{
+	background: #fff;
+}
+.weui-cell__bd{
+	font-size: 1em !important;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: -1px;
+}
+/* popup弹窗样式 end ======================>*/
+
+/* toast提示框样式 begin ======================>*/
+.weui-toast {
+   
+    margin-left: 0;
+   
+}
+/* toast提示框样式 end ======================>*/
+
+/* toptips 提示框样式 begin ======================>*/
+.weui-toptips {
+    z-index: 999999999999999999999;
+    -webkit-transition: opacity .8s;
+    transition: opacity .8s;
+}
+/* toptips 提示框样式 end ======================>*/
+
+
+.toolbar {
+  border: 1px solid #e5e5e5;
+}
+
+
+/*底部banner 重写 begin ======================>*/
+.weui-tabbar {
+   
+    position: fixed;
+    
+    background-color: #F7F7FA;
+}
+.weui-tabbar__icon > i {
+    font-size: 24px;
+    color: #999999;
+}
+
+.weui-tabbar__item.weui-bar__item--on .iconfont {
+  color: #04BE02;
+}
+/*底部banner 重写 end ======================>*/

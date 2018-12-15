@@ -1,0 +1,100 @@
+@charset "utf-8";
+/**
+ +------------------------------------------------------------------------------
+ * 移动端列表样式
+ +------------------------------------------------------------------------------
+ * @author    Richer <yangzi1028@163.com>
+ * @version   2017年08月03日 11:37:20
+ +------------------------------------------------------------------------------
+ */
+section.main {
+	background: #fff;
+	/*margin: 30px auto;*/
+	/* padding-bottom: 70px; */
+}
+
+.main article {
+	width: 96%;
+	/*margin: 30px auto;*/
+	height: 100px;
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 15px;
+	padding: 20px 10px;;
+}
+
+.main article .left {
+	width: 15%;
+	float: left;
+}
+
+.main article .right {
+	width: 84%;
+	float: right;
+	border-left: 1px solid #e5e5e5;
+}
+
+.main article time {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+	color: #6A6A6A;
+}
+
+.main article span {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+
+.main article h3 {
+	font-weight: normal;
+	font-size: 18px;
+	padding-left: 2%;
+}
+
+.main article p {
+	margin-top: 6px;
+	color: #696969;
+	line-height: 24px;
+	height: 68px;
+	overflow: hidden;
+	padding-left: 2%;
+	color: #999999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.main article a {
+	float: right;
+	color: #00B6FF;
+	font-size: 16px;
+	margin-right: 2%;
+}
+
+.main .details {
+	text-align: center;
+	font-size: 16px;
+	color: #696969;
+	margin-top: 60px;
+}
+
+.main .list {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.main .list a {
+	border: 1px solid #797979;
+	color: #333333;
+	width: 30px;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	margin: 0 3px;
+}
+
+/* 我的业务九宫格 end ======================>*/

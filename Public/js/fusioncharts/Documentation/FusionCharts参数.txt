@@ -1,0 +1,207 @@
+FusionCharts参数说明默认分类 
+
+2010-11-17 14:04:49 
+
+功能特性
+animation                     是否动画显示数据，默认为 1(True)
+showNames                     是否显示横向坐标轴(x轴)标签名称
+rotateNames                 是否旋转显示标签，默认为0(False):横向显示
+showValues                     是否在图表显示对应的数据值，默认为1(True)
+yAxisMinValue                 指定纵轴(y轴)最小值，数字
+yAxisMaxValue                  指定纵轴(y轴)最小值，数字
+showLimits                     是否显示图表限值(y轴最大、最小值)，默认为1(True)
+showColumnShadow      是否显示各条形图间的阴影（若柱面图在一起并列的话）
+showAlternateHGridColor 是否隔行显示不同颜色
+
+图表标题和轴名称
+caption                     图表主标题
+subCaption                     图表副标题
+xAxisName                     横向坐标轴(x轴)名称
+yAxisName                     纵向坐标轴(y轴)名称
+imageSave='1'       是否保存图片
+imageSaveURL='Path/FusionChartsSave.jsp '图片路径
+
+hoverCapSepChar='，'。鼠标放到柱面上时显示的提示信息的分隔符
+showhovercap='1'          鼠标放到柱面上时是否显示提示信息 
+hoverCapBgColor=‘ffffff’提示信息背景颜色
+
+图表和画布的样式
+bgColor                     图表背景色，6位16进制颜色值
+canvasBgColor                 画布背景色，6位16进制颜色值
+canvasBgAlpha                 画布透明度，[0-100]
+canvasBorderColor             画布边框颜色，6位16进制颜色值
+canvasBorderThickness         画布边框厚度，[0-100]
+shadowAlpha                 投影透明度，[0-100]
+showLegend                     是否显示系列名，默认为1(True)
+
+字体属性
+baseFont                     图表字体样式
+baseFontSize                 图表字体大小
+baseFontColor                 图表字体颜色，6位16进制颜色值
+outCnvBaseFont                 图表画布以外的字体样式
+outCnvBaseFontSize             图表画布以外的字体大小
+outCnvBaseFontColor         图表画布以外的字体颜色，6位16进制颜色值
+
+分区线和网格
+numDivLines                 画布内部水平分区线条数，数字
+divLineColor                 水平分区线颜色，6位16进制颜色值
+divLineThickness             水平分区线厚度，[1-5]
+divLineAlpha                 水平分区线透明度，[0-100]
+showAlternateHGridColor     是否在横向网格带交替的颜色，默认为0(False)
+alternateHGridColor         横向网格带交替的颜色，6位16进制颜色值
+alternateHGridAlpha         横向网格带的透明度，[0-100]
+showDivLineValues             是否显示Div行的值，默认？？
+numVDivLines                 画布内部垂直分区线条数，数字
+vDivLineColor                 垂直分区线颜色，6位16进制颜色值
+vDivLineThickness             垂直分区线厚度，[1-5]
+vDivLineAlpha                 垂直分区线透明度，[0-100]
+showAlternateVGridColor     是否在纵向网格带交替的颜色，默认为0(False)
+alternateVGridColor         纵向网格带交替的颜色，6位16进制颜色值
+alternateVGridAlpha         纵向网格带的透明度，[0-100]
+
+数字格式
+numberPrefix                 增加数字前缀
+numberSuffix                 增加数字后缀     % 为 '%25' / (吨)为‘%ef%bc%88%e5%90%a8%ef%bc%89’（Server.UrlEncode编码）
+formatNumberScale         是否格式化数字,默认为1(True),自动的给你的数字加上K（千）或M（百万）；若取0,则不加K或M
+decimalPrecision             指定小数位的位数， [0-10]     例如：='0' 取整
+divLineDecimalPrecision     指定水平分区线的值小数位的位数， [0-10]
+limitsDecimalPrecision         指定y轴最大、最小值的小数位的位数，[0-10]
+formatNumber                 逗号来分隔数字(千位，百万位),默认为1(True)；若取0,则不加分隔符
+decimalSeparator             指定小数分隔符,默认为'.'
+thousandSeparator             指定千分位分隔符,默认为','
+
+Tool- tip/Hover标题
+showhovercap                 是否显示悬停说明框，默认为1(True)
+hoverCapBgColor             悬停说明框背景色，6位16进制颜色值
+hoverCapBorderColor         悬停说明框边框颜色，6位16进制颜色值
+hoverCapSepChar             指定悬停说明框内值与值之间分隔符,默认为','
+
+折线图的参数
+lineThickness                 折线的厚度
+anchorRadius                 折线节点半径，数字
+anchorBgAlpha                 折线节点透明度，[0-100]
+anchorBgColor                 折线节点填充颜色，6位16进制颜色值
+anchorBorderColor             折线节点边框颜色，6位16进制颜色值
+
+Set标签使用的参数
+value                         数据值
+color                         颜色
+link                         链接（本窗口打开[Url]，新窗口打开[n-Url]，调用JS函数[JavaScript:函数]）
+name                         横向坐标轴标签名称
+
+showFCMenuItem='0' 设置右键显示不显示
+
+1. varmyChart= newFusionCharts("../FusionCharts/FCF_Column3D.swf", "myChartId", "600", "
+500");
+第一个参数是SWF 文件的地址。
+第二个是图形的id。这个id 你可以随便叫什么，但是要注意，在后面我们讲到一个页面里有
+多个图形的时候，这个id 一定要是唯一的。
+第三个参数是图形的宽。
+第四个参数是图形的高。
+我们还要设置数据文件的地址。
+
+1. myChart.setDataURL("Data.xml");
+最后，我们把图形渲染在指定的地方。
+1. myChart.render("chartdiv");
+"chartdiv"就是前面的DIV 的id，这就表示把图形render 到"chartdiv"。
+现在你运行JSChart.html，你会看到同Chart.html 一样的效果。很显然使用JavaScript 加载
+图形，更方便，更直观。
+
+
+如果你想在一个新的窗口打开页面，只需要在连接的前面加上“n-”，就像下面的代码一样：
+1. <graph caption='Monthly Sales Summary' subcaption='For the year 2006 '
+2. xAxisName='Month' yAxisName='Sales' numberPrefix='$'>
+3. <set name='Jan' value='1 7400' link='n-DemoLinkPages/DemoLink1.html' color='AFD8F8' />
+
+XML数据节点和常用属性详解
+caption=‘标题‘
+subcaption=‘子标题‘
+clickURL=‘abc.jsp‘ 点击整个图表时跳转到abc.jsp
+xAxisName=部门‘
+numberPrefix =‘￥’ 数据前缀单位
+numberSuffix =‘个’ 数据后缀单位 
+Decimals=‘2’ 保留两位小数，四舍五入
+forceDecimals=‘2’ 强制保留两位小数，对于5.1 转换为5.10 
+yAxisName=‘完成率’ 
+如果使用汉字汉符需加属性：rotateYAxisName=‘1’
+showValues=‘1’
+yAxisMaxValue=‘100’ 
+对于百分比的常用bgColor='999999,FFFFFF‘
+渐变bgColor=‘999999 ’ 单色
+useRoundEdges=‘1’ 光线效果
+baseFont=‘宋体‘
+baseFontSize='12' 
+baseFontColor='333333'
+
+补充：FusionCharts中的属性
+
+在<Dataset>设置线的属性，有几个<Dataset>就有几条线。
+
+Seriesname：设置对应数据的标题、
+
+showValues：设置是否显示值、
+
+areaAlpha：设置区域的透明度、
+
+anchorBgColor设置锚的背景色、
+
+areaBorderThickness：设置区域边框的厚度
+
+在<graph>设置图形的属性，
+
+baseFontSize：设置字体大小、
+
+vDivLineAlpha：设置区域垂直线的透明度、
+
+rotateNames：是否旋转X轴的名字、
+
+Hovercapbg：鼠标悬浮上的背景色、
+
+Hovercapborder：鼠标悬浮上的边框色
+
+showBorder ：是否显示图形边框 0不显示 / 1显示
+
+Caption：标题、
+
+sub caption：子标题、
+
+Alternating Colored Horizontal Grids：垂直表格间隔色以及透明度、
+
+Alternating Colored Vertical　 Grids：水平表格间隔色以及透明度、
+
+Hover Caption：提示信息、
+
+hover caption background:提示框的背景，
+
+hover caption border:提示框的边框，
+
+hover caption data separator character:提示信息的分割字符
+
+下面是设置温度计中的属性，
+
+x-axis name：X轴标签、
+
+y-axis name：Y轴标签、
+
+y-axis max limit：y轴最大值、
+
+y-axis min limit：y轴最小值、
+
+number Prefix：数值的前缀、
+
+number Suffix：数值的后缀、
+
+DIV lines：刻度线、
+
+bgColor:背景色、
+
+showBorder:是否显示边框、
+
+bgAlpha:背景透明度、
+
+Anchors：锚点、
+
+showTickValues:是否显示刻度、
+
+decimalPrecistion:设置小数位数
+

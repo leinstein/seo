@@ -1,0 +1,172 @@
+<html lang="en"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>菜单</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--系统css-->
+    <link rel="stylesheet" type="text/css" href="css/cloud-admin.css">
+    <!--主题css-->
+    <link rel="stylesheet" type="text/css" href="css/default.css" id="skin-switcher">
+    <!--响应式css-->
+    <!--<link rel="stylesheet" type="text/css"  href="css/responsive.css" >-->
+    <!--图标字体-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<script>
+        self.parent.frames["main"].location="admin/gwt.html";
+    
+
+</script>
+
+
+<div id="sidebar" class="sidebar">
+    <div class="sidebar-menu nav-collapse">
+    
+            <ul>
+
+        <!-- SIDEBAR MENU -->
+        
+        
+                    <li>
+                                <a href="admin/gwt.html" target="main">
+                    <i class="fa fa-tachometer fa-fw"></i> <span class="menu-text">产品首页</span>                </a>            </li>
+                        
+                        
+                        <li>
+                
+                                        <a href="admin/wz/list.html" target="main"><i class="fa fa-tachometer fa-fw"></i> <span class="menu-text">站点管理</span></a>
+                                </li>
+            
+                        
+            
+                        
+                            <li class="has-sub">
+                <a href="javascript:;" class="">
+                    <i class="fa fa-bookmark-o fa-fw"></i> <span class="menu-text">优化中心</span>
+                    <span class="arrow"></span>                </a>
+                <ul class="sub">
+                                  
+                    <li><a class="" href="admin/kw/add.html" target="main"><span class="sub-menu-text" id="toplink1" onclick="dj('1');">关键词购买</span></a></li>
+                    <li><a class="" href="admin/kw/list.html" target="main"><span class="sub-menu-text" id="toplink2" onclick="dj('2');">购物车</span></a></li>
+                       <li><a class="" href="admin/kw/list2.html" target="main"><span class="sub-menu-text" id="toplink3" onclick="dj('3');">站点效果</span></a></li>
+                    <li><a class="" href="admin/kw/list1.html" target="main"><span class="sub-menu-text" id="toplink4" onclick="dj('4');">关键词效果</span></a></li>
+                                </ul>
+            </li>
+            
+                        
+            
+            
+            
+            <li>
+                <a href="admin/cw/caiwu.html" target="main">
+                    <i class="fa fa-tachometer fa-fw"></i> <span class="menu-text">财务管理</span>                </a>            </li>
+                        
+        
+            
+                        <!--<li>
+                <a href="/admin/user/dulist.php"  target='main'>
+                    <i class="fa fa-tachometer fa-fw"></i> <span class="menu-text">用户列表</span>
+                </a>
+            </li>-->
+            
+              
+                  
+
+ 
+ 
+ 
+ <!--官网通-->
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+    
+    
+    
+    
+    <!--搜索通管理-->
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!--霸屏通管理-->
+        
+    
+    
+    
+    
+    
+     
+                    
+        </ul>
+        <!-- /SIDEBAR MENU -->
+    </div>
+</div>
+
+
+<script>
+function dj(t){
+    //alert(t);
+        $("#toplink1").removeClass("sub-menu-text active");
+    $("#toplink1").addClass("sub-menu-text");
+
+        $("#toplink2").removeClass("sub-menu-text active");
+    $("#toplink2").addClass("sub-menu-text");
+
+        $("#toplink3").removeClass("sub-menu-text active");
+    $("#toplink3").addClass("sub-menu-text");
+
+        
+$("#toplink"+t).addClass("sub-menu-text active");
+    
+}
+
+</script>
+
+
+<!--/PAGE -->
+<!-- JAVASCRIPTS -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- JQUERY -->
+<script src="js/jquery/jquery-2.0.3.min.js"></script>
+<!-- JQUERY UI-->
+<!--<script src="js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>-->
+<!-- BOOTSTRAP -->
+<script src="__PUBLIC__/js/bootstrap/bootstrap.min.js"></script>
+
+
+<!-- DATE RANGE PICKER -->
+<!--<script src="js/bootstrap-daterangepicker/moment.min.js"></script>-->
+
+<!--<script src="js/bootstrap-daterangepicker/daterangepicker.min.js"></script>-->
+<!-- SLIMSCROLL -->
+<!--<script type="text/javascript" src="js/jQuery-slimScroll-1.3.0/jquery.slimscroll.min.js"></script><script type="text/javascript" src="js/jQuery-slimScroll-1.3.0/slimScrollHorizontal.min.js"></script>-->
+<!-- COOKIE -->
+<script type="text/javascript" src="js/jQuery-Cookie/jquery.cookie.min.js"></script>
+<!-- CUSTOM SCRIPT -->
+<script src="js/script.js"></script>
+ <script>
+    jQuery(document).ready(function() {
+        App.init(); //Initialise plugins and elements
+    });
+</script>
+<!-- /JAVASCRIPTS -->
+
+</body></html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="febdc713-d6b2-476a-8b1b-ee86170316d4" name="mt" url="http://47.100.175.168">
+        <fileTransfer host="47.100.175.168" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="47011373-b7e4-4525-912e-3cd98186b8b8" name="mitongsearch" url="http://47.92.80.66">
+        <fileTransfer host="47.92.80.66" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="953b09cb-2ce6-4881-b579-9f13e199c35c" name="dl" url="http://39.106.9.240">
+        <fileTransfer host="39.106.9.240" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="241cc948-2c14-41e1-8d76-d57816eca019" name="jiaju" url="http://ftp7.vipdns.com.cn">
+        <fileTransfer host="ftp7.vipdns.com.cn" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

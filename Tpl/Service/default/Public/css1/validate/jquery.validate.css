@@ -1,0 +1,17 @@
+/**
+	input.error { border: 1px solid red; }
+*/
+
+label.error {
+  background:url(../../Images/validate/unchecked.gif) no-repeat 0px 0px; padding-left:20px;margin-left:3px;color:#cc6600;font-weight: bold;
+}
+
+label.vaidate.checked {
+  background:url("../../Images/validate/checked.gif") no-repeat 0px 0px;padding-left:20px; margin-left:3px;
+}
+
+label.vaidate.none {
+  background:none;padding-left:20px; margin-left:3px;
+}
+
+

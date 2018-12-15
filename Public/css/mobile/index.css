@@ -1,0 +1,303 @@
+@charset "utf-8";
+/**
+ +------------------------------------------------------------------------------
+ * 移动端用户中心和首页样式 
+ +------------------------------------------------------------------------------
+ * @author    Richer <yangzi1028@163.com>
+ * @version   2017年08月03日 11:37:20
+ +------------------------------------------------------------------------------
+ */
+
+/* 用户中心样式 begin ======================>*/
+.user-wrapper {
+	
+}
+
+.user-wrapper {
+	/* overflow: hidden;
+	background: url(../../img/mobile/default.png) no-repeat;
+	background-size: cover; */
+	height: 240px;
+	background: #fff;
+}
+.user-wrapper img{
+	vertical-align: top;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.user-account {
+	height: 140px;
+	background-color: #aacc80;
+	color: #fff;
+}
+.user-avatar {
+	height: 100%;
+	line-height: 140px;
+	width: 130px;
+	vertical-align: middle;
+}
+.user-account-detail {
+	padding-top: 40px;
+}
+.user-detail-greetings {
+	font-size: 18px;
+}
+.user-account-username {
+	display: inline-block;
+	vertical-align: middle;
+}
+.user-account-usertype {
+	display: inline-block;
+	height: 20px;
+	background: #999;
+	font-size: 12px;
+	margin-top: -5px;
+	vertical-align: top;
+	text-align: center;
+	padding: 2px 5px;
+	color: #fff;
+	border-radius: 5px;
+	line-height: 20px;
+}
+
+.user-connect {
+	height: 53px;
+	padding: 0 15px;
+	line-height: 53px;
+	font-size: 14px;
+}
+.user-connect a{
+	color: #999;
+}
+.user-connect:first-child {
+	border-bottom: 1px solid #eee;
+}
+.connect-icon {
+	display: inline-block;
+	padding-left: 30px;
+	background: no-repeat left center;
+}
+/* 用户中心样式  end ======================>*/
+
+/* 客服信息样式 begin ======================>*/
+.secretary-wrapper {
+	position: relative;
+	height: 260px;
+	background: #fff;
+	margin-top: 10px
+}
+.secretary-detail {
+	position: relative;
+	background-color: #6bd2fa;
+	height: 100px;
+}
+
+.secretary-detail img {
+	position: absolute;
+	bottom: -25px;
+	left: 50%;
+	width: 123px;
+	height: 120px;
+	margin-left: -61px;
+}
+.secretary-operate {
+	padding-top: 28px;
+}
+.secretary-operate-buttons {
+	margin-top: 10px;
+}
+.secretary-operate-buttons a {
+	height: 38px; 
+	line-height: 38px;
+	width: auto; 
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.connect-secretary {
+	padding: 0 28px;
+	margin-right: 40px;
+}
+.secretary-feedback {
+	vertical-align: middle;
+}
+.service-info-trigger {
+	display: inline-block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: no-repeat center;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.service-info-trigger a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.service-qq {
+	background-image: url(img/home_icon_qq.png);
+}
+.service-tel {
+	background-image: url(img/home_icon_tel.png);
+}
+.service-info-pop {
+	position: absolute;
+	top: -30px;
+	left: 0;
+	z-index: -1;
+	height: 42px;
+	background: no-repeat center;
+	line-height: 32px;
+	text-align: center;
+	color: #009FD9;
+	font-size: 14px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition-property: opacity, top;
+	-moz-transition-property: opacity, top;
+	-ms-transition-property: opacity, top;
+	-o-transition-property: opacity, top;
+	transition-property: opacity, top;
+}
+.service-info-trigger:hover .service-info-pop {
+	top: -50px;
+	z-index: 10;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.service-pop-qq {
+	width: 144px;
+	background-image: url(img/pop_bg_qq.png);
+}
+.service-pop-tel {
+	width: 164px;
+	background-image: url(img/pop_bg_tel.png);
+}
+
+
+
+/* .user-wrapper {
+	overflow: hidden;
+	background: url(../../img/mobile/default.png) no-repeat;
+	background-size: cover;
+}
+
+.user {
+	height: 94px;
+	margin-top: 20px;
+}
+
+.user-avatar {
+	border-radius: 8px;
+	float: left;
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 2px solid #fff;
+	margin-left: 30px;
+}
+
+.user-info {
+	float: left;
+	margin-left: 24px;
+}
+
+.user-name, .user-level {
+	display: block;
+	color: #fff;
+	line-height: 25px;
+}
+
+.user-level {
+	opacity: .7;
+}
+
+.msg {
+	position: absolute;
+	display: block;
+	padding-top: 60px;
+	right: 17px;
+}
+
+.msg:after {
+	content: '';
+	background-size: 100%;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	float: right;
+	margin-left: 5px;
+} */
+
+/* 用户中心样式 end ======================>*/
+
+/* 消息通知样式 begin ======================>*/
+.weui-cells{
+	font-size: 1em;
+}
+.notify{
+	/*margin-top: 0;*/
+}
+
+.notify .weui-cells__title{
+	font-weight: bold;
+	padding: 15px;
+	font-size: 1.1em;
+}
+.notify .weui-panel__hd{
+	font-weight: bold;
+	padding: 15px;
+	font-size: 1.1em;
+}
+
+.notify .weui-panel__hd img{
+	width: 100px;
+}
+.notify .iconfont{
+	font-size: 30px;
+}
+.notify .weui-media-box {
+    padding:0px 15px; 
+    position: relative;
+}
+.notify .weui-media-box__title{
+	padding:10px 15px; 
+	font-size: 1em;
+}
+.notify .weui-cell{
+	padding:10px 15px; 
+}
+.notify .weui-cell__bd {
+    padding:10px 15px; 
+}
+/* 消息通知样式 end ======================>*/
+
+/* 我的业务九宫格 begin ======================>*/
+.my-business{
+	margin-bottom: 10px;
+}
+
+.my-business .weui-grid__icon{
+	width: 8vw;;
+    height: 8vw;
+	/*background: #0baae4;*/
+	text-align: center;
+	color: #fff;
+	padding: 5px; 
+	line-height: 4vw;
+	border-radius: 5px;
+}
+
+.my-business .weui-grid__icon .iconfont{
+	font-size: 10vw;
+	color: #fff;
+}
+.my-business .weui-grid__label{
+	color: #fff;
+	font-size: 5vw;
+	font-weight:bold;
+}
+.weui-grid {
+    width: 50%;
+}
+/* 我的业务九宫格 end ======================>*/

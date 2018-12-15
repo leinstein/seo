@@ -1,0 +1,163 @@
+<?php
+//语言文件包
+return array(
+		'username'				=> '用户名',
+	/*资金预算信息*/
+	/*'keyword' => array(
+			
+			'baidu' => array(
+					
+					array('quotavalue'=>5,'vmin'=>1,'vmax'=>100,'choose'=>0),
+					array('quotavalue'=>8,'vmin'=>101,'vmax'=>500,'choose'=>0),
+					array('quotavalue'=>12,'vmin'=>501,'vmax'=>1000,'choose'=>0),
+					array('quotavalue'=>15,'vmin'=>1001,'vmax'=> '','choose'=>0),
+					
+					array('length' => '4','compare' => '<=','price' => 18),
+					array('length' => '5','compare' => '=','price' => 16),
+					array('length' => '6','compare' => '=','price' => 16),
+					array('length' => '7','compare' => '=','price' => 14),
+					array('length' => '8','compare' => '=','price' => 14),
+					array('length' => '9','compare' => '=','price' => 12),
+					array('length' => '10','compare' => '=','price' => 12),
+					array('length' => '11','compare' => '=','price' => 10),
+					array('length' => '12','compare' => '=','price' => 10),
+					array('length' => '13','compare' => '=','price' => 9),
+					array('length' => '14','compare' => '>=','price' => 9),
+			),
+			
+			'baidu_mobile' => array(
+					array('length' => '4','compare' => '<=','price' => 24),
+					array('length' => '5','compare' => '=','price' => 20),
+					array('length' => '6','compare' => '=','price' => 20),
+					array('length' => '7','compare' => '=','price' => 18),
+					array('length' => '8','compare' => '=','price' => 18),
+					array('length' => '9','compare' => '=','price' => 16),
+					array('length' => '10','compare' => '=','price' => 16),
+					array('length' => '11','compare' => '=','price' => 14),
+					array('length' => '12','compare' => '=','price' => 14),
+					array('length' => '13','compare' => '=','price' => 12),
+					array('length' => '14','compare' => '>=','price' => 12),
+			),
+			'sougou' => array(
+					array('length' => '4','compare' => '<=','price' => 6),
+					array('length' => '5','compare' => '=','price' => 6),
+					array('length' => '6','compare' => '=','price' => 6),
+					array('length' => '7','compare' => '=','price' => 5),
+					array('length' => '8','compare' => '=','price' => 5),
+					array('length' => '9','compare' => '=','price' => 4),
+					array('length' => '10','compare' => '=','price' => 4),
+					array('length' => '11','compare' => '=','price' => 3),
+					array('length' => '12','compare' => '=','price' => 3),
+					array('length' => '13','compare' => '=','price' => 3),
+					array('length' => '14','compare' => '>=','price' => 3),
+			),
+			'360' => array(
+					array('length' => '4','compare' => '<=','price' => 8),
+					array('length' => '5','compare' => '=','price' => 8),
+					array('length' => '6','compare' => '=','price' => 8),
+					array('length' => '7','compare' => '=','price' => 6),
+					array('length' => '8','compare' => '=','price' => 6),
+					array('length' => '9','compare' => '=','price' => 5),
+					array('length' => '10','compare' => '=','price' => 5),
+					array('length' => '11','compare' => '=','price' => 4),
+					array('length' => '12','compare' => '=','price' => 4),
+					array('length' => '13','compare' => '=','price' => 4),
+					array('length' => '14','compare' => '>=','price' => 4),
+			),
+			'shenma' => array(
+					array('length' => '4','compare' => '<=','price' => 5),
+					array('length' => '5','compare' => '=','price' => 5),
+					array('length' => '6','compare' => '=','price' => 5),
+					array('length' => '7','compare' => '=','price' => 4),
+					array('length' => '8','compare' => '=','price' => 4),
+					array('length' => '9','compare' => '=','price' => 3),
+					array('length' => '10','compare' => '=','price' => 3),
+					array('length' => '11','compare' => '=','price' => 2),
+					array('length' => '12','compare' => '=','price' => 2),
+					array('length' => '13','compare' => '=','price' => 2),
+					array('length' => '14','compare' => '>=','price' => 2),
+			),
+		),
+		*/
+		/*资金预算信息*/
+		'KeywordOptions' => array(
+					
+				'baidu' => array(
+						array('vmin'=>'','vmax'=> 4,'quotavalue' => 18),
+						array('vmin'=>5 ,'vmax'=> 5,'quotavalue' => 16),
+						array('vmin'=>6 ,'vmax'=> 6,'quotavalue' => 16),
+						array('vmin'=>7 ,'vmax'=> 7,'quotavalue' => 14),
+						array('vmin'=>8 ,'vmax'=> 8,'quotavalue' => 14),
+						array('vmin'=>9 ,'vmax'=> 9,'quotavalue' => 12),
+						array('vmin'=>10,'vmax'=> 10,'quotavalue' => 12),
+						array('vmin'=>11,'vmax'=> 11,'quotavalue' => 10),
+						array('vmin'=>12,'vmax'=> 12,'quotavalue' => 10),
+						array('vmin'=>13,'vmax'=> 13,'quotavalue' => 9),
+						array('vmin'=>14,'vmax'=> 14,'quotavalue' => 9),
+				),
+					
+				'baidu_mobile' => array(
+						array('vmin'=>'','vmax'=> 4,'quotavalue' => 24),
+						array('vmin'=>5 ,'vmax'=> 5,'quotavalue' => 20),
+						array('vmin'=>6 ,'vmax'=> 6,'quotavalue' => 20),
+						array('vmin'=>7 ,'vmax'=> 7,'quotavalue' => 18),
+						array('vmin'=>8 ,'vmax'=> 8,'quotavalue' => 18),
+						array('vmin'=>9 ,'vmax'=> 9,'quotavalue' => 16),
+						array('vmin'=>10,'vmax'=> 10,'quotavalue' => 16),
+						array('vmin'=>11,'vmax'=> 11,'quotavalue' => 14),
+						array('vmin'=>12,'vmax'=> 12,'quotavalue' => 14),
+						array('vmin'=>13,'vmax'=> 13,'quotavalue' => 12),
+						array('vmin'=>14,'vmax'=> 14,'quotavalue' => 12),
+				),
+				'sougou' => array(
+						array('vmin'=>'','vmax'=> 4,'quotavalue' => 6),
+						array('vmin'=>5 ,'vmax'=> 5,'quotavalue' => 6),
+						array('vmin'=>6 ,'vmax'=> 6,'quotavalue' => 6),
+						array('vmin'=>7 ,'vmax'=> 7,'quotavalue' => 5),
+						array('vmin'=>8 ,'vmax'=> 8,'quotavalue' => 5),
+						array('vmin'=>9 ,'vmax'=> 9,'quotavalue' => 4),
+						array('vmin'=>10,'vmax'=> 10,'quotavalue' => 4),
+						array('vmin'=>11,'vmax'=> 11,'quotavalue' => 3),
+						array('vmin'=>12,'vmax'=> 12,'quotavalue' => 3),
+						array('vmin'=>13,'vmax'=> 13,'quotavalue' => 3),
+						array('vmin'=>14,'vmax'=> 14,'quotavalue' => 3),
+				),
+				
+				'360' => array(
+						array('vmin'=>'','vmax'=> 4,'quotavalue' => 8),
+						array('vmin'=>5 ,'vmax'=> 5,'quotavalue' => 8),
+						array('vmin'=>6 ,'vmax'=> 6,'quotavalue' => 8),
+						array('vmin'=>7 ,'vmax'=> 7,'quotavalue' => 6),
+						array('vmin'=>8 ,'vmax'=> 8,'quotavalue' => 6),
+						array('vmin'=>9 ,'vmax'=> 9,'quotavalue' => 5),
+						array('vmin'=>10,'vmax'=> 10,'quotavalue' => 5),
+						array('vmin'=>11,'vmax'=> 11,'quotavalue' => 4),
+						array('vmin'=>12,'vmax'=> 12,'quotavalue' => 4),
+						array('vmin'=>13,'vmax'=> 13,'quotavalue' => 4),
+						array('vmin'=>14,'vmax'=> 14,'quotavalue' => 4),
+				),
+				'shenma' => array(
+						array('vmin'=>'','vmax'=> 4,'quotavalue' => 5),
+						array('vmin'=>5 ,'vmax'=> 5,'quotavalue' => 5),
+						array('vmin'=>6 ,'vmax'=> 6,'quotavalue' => 5),
+						array('vmin'=>7 ,'vmax'=> 7,'quotavalue' => 4),
+						array('vmin'=>8 ,'vmax'=> 8,'quotavalue' => 4),
+						array('vmin'=>9 ,'vmax'=> 9,'quotavalue' => 3),
+						array('vmin'=>10,'vmax'=> 10,'quotavalue' => 3),
+						array('vmin'=>11,'vmax'=> 11,'quotavalue' => 2),
+						array('vmin'=>12,'vmax'=> 12,'quotavalue' => 2),
+						array('vmin'=>13,'vmax'=> 13,'quotavalue' => 2),
+						array('vmin'=>14,'vmax'=> 14,'quotavalue' => 2),
+				),
+		),
+
+		//年度主营业务收入
+		'baidu_index'=>array(
+				array('quotavalue'=>5,'vmin'=>1,'vmax'=>100,'choose'=>0),
+				array('quotavalue'=>8,'vmin'=>101,'vmax'=>500,'choose'=>0),
+				array('quotavalue'=>12,'vmin'=>501,'vmax'=>1000,'choose'=>0),
+				array('quotavalue'=>15,'vmin'=>1001,'vmax'=> '','choose'=>0),
+		),
+		
+)
+?>

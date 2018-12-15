@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+/*空间主体*/
+.ui-box-content{ padding:20px 15px 30px 15px; }
+
+/*空间内布局 总宽 958px */
+.ui-space-row { margin-right: -10px; zoom: 1; }
+.ui-space-row:after { clear: both; content: " "; display: block; font-size: 0; height: 0; visibility: hidden; }
+.ui-space-18,.ui-space-7,.ui-space-22,.ui-space-3{ margin: 0 10px 10px 0; float:left; display:inline; }
+.ui-space-18{width:680px;}
+.ui-space-7{width:260px;}
+.ui-space-22{width:840px;}
+.ui-space-3{width:100px;}
+
+/* 表格风格下面是虚线的下划线风格  */
+.ui-table {border: 1px solid #ccc;}
+.ui-table-dashline td{ height:22px; color:#666; background-color:#fff; border-bottom:1px dashed #ccc;}
+.ui-table-dashline td p{ padding-left:10px;}
+
+/* 列表风格 */
+.ui-dlist-col1, .ui-dlist-col2{ width:50%; float:left; color:#333; }
+.ui-dlist-tit { width: 28%; text-align: left; padding-left:6px; border-bottom:1px dashed #ccc;}
+.ui-dlist-det { width: 68%; text-align: left; padding-left:6px; border-bottom:1px dashed #ccc; }
+
+/* dialog 列表风格 */
+.ui-box-dialog .ui-dlist-col1, .ui-box-dialog .ui-dlist-col2{ width:100%; color:#666; display:block; clear:both;}
+.ui-box-dialog .ui-dlist-tit { width: 22%; text-align: left; font-weight:bold; padding-left:6px; border-bottom:1px dashed #ccc;}
+.ui-box-dialog .ui-dlist-det { width: 74%; text-align: left; padding-left:6px; border-bottom:1px dashed #ccc; }
+
+/* 企业空间的数据表格风格 */
+.ui-table-data { border:0; border-top:1px solid #bbb;  }
+.ui-table-data th{ border:0; font-weight:700;}
+
+/* 空间头 - 企业名称，logo等*/
+.ui-space-header{ margin-right: -10px; zoom: 1; }
+.ui-space-header:after { clear: both; content: " "; display: block; font-size: 0; height: 0; visibility: hidden; }
+/* 企业logo  */
+.ui-space-header .ui-space-header-logo{ float:left; display:inline; width:100px;}
+.ui-space-header .ui-space-header-logo img.eplogo{ height:86px; width:86px; border:1px solid #ccc;}
+/* 空间头 - 企业名称，logo等 */
+.ui-space-header .ui-space-header-epkey{ float:left; display:inline; width:840px; padding-left:8px; }
+.ui-space-header .ui-space-header-epkey h2{ font-family: 微软雅黑; font-size:24px; line-height:22px; padding: 8px 2px;}
+.ui-space-header .ui-space-header-epkey .ui-space-epapts{ padding: 8px 2px; }
+
+/* 空间主体 */
+.ui-space-body{ margin:15px 0 10px 0; }
+
+/* 基本段落 */
+.ui-space-body  .ui-space-body-paragraph{ zoom: 1; font-size: 12px; margin: 8px 0; padding: 0; border-bottom: 0; }
+.ui-space-body  .ui-space-body-paragraph:after { clear: both; content: " "; display: block; font-size: 0; height: 0; visibility: hidden; }
+.paragraph-head{ position: relative; padding: 10px 10px 2px 10px; height: 26px; line-height: 16px; zoom: 1; }
+.paragraph-head .paragraph-head-title{color: #656565; font-size: 14px; font-weight: 700; float: left; display: inline; margin: 0; padding: 0; }
+.paragraph-head .paragraph-head-text{ margin-left: 10px; color: #808080; float: left; }
+.paragraph-head .paragraph-head-more{ float: right; }
+.paragraph-container{ background: #FFF;position: relative;width: 960px;}
+.paragraph-container .paragraph-content{ padding: 10px; }
+
+
+/* 段落-简介*/
+.ui-space-body .paragraph-epsummary { border:1px #ccc dashed;  font-size:13px;}
+.ui-space-body .paragraph-epsummary .paragraph-head{ padding:0; height:15px; line-height:15px; }
+.ui-space-body .paragraph-epsummary .paragraph-head .paragraph-head-title{  position:absolute; width:60px; height:22px; font-weight: normal; line-height:20px; top:-10px; left:4px; text-align:center; font-size:12px; background-color:#fff; z-index:1;}
+.ui-space-body .paragraph-epsummary .paragraph-content p{ text-indent:2em; line-height: 200%; }
+
+/* 段落-信息摘要*/
+.ui-space-body .paragraph-keyinfo{}
+/*.ui-space-body .paragraph-keyinfo .paragraph-head{ background:url('../../img/epspace/head-title-bg1.png') no-repeat left;}*/
+.ui-space-body .paragraph-keyinfo .paragraph-head .paragraph-head-title{ color:#fff; padding-right:30px; }
+
+.ui-space-body .paragraph-keyinfo .paragraph-head {background: url('../img/head-title-bg1.png') no-repeat left center ; background-size: 120px 50px;}
+/* 段落-目录*/
+.ui-space-body .paragraph-dir{}
+/*.ui-space-body .paragraph-dir .paragraph-container{ height:180px; background:url('../../img/epspace/dir-bg.jpg') no-repeat; }*/
+
+/* 段落-一级段落*/
+.ui-space-body .paragraph-level1{}
+/*.ui-space-body .paragraph-level1 .paragraph-head{ background:url('../../img/epspace/head-title-bg2.png') no-repeat 3px 5px;}*/
+.ui-space-body .paragraph-level1 .paragraph-head .paragraph-head-title{ color:#333; padding-left:1px;}
+.ui-space-body .paragraph-level1 .paragraph-head .paragraph-head-title .title-no{  color:#fff; padding-right: 8px;}
+.ui-space-body .paragraph-level1 .paragraph-head .paragraph-head-title .title-text{ color:#333; padding-left:10px;  padding-right:10px; font-size:16px; background-color:#fff;}
+
+/* 段落-二级段落*/
+.ui-space-body .paragraph-level2{ padding:0 0;min-height: 205px}
+/*自定义风格*/
+/*.quota-high{ background:url('../Public/img/epspace/icon-high.png') no-repeat 0 12px; }
+.quota-low{ background:url('../Public/img/epspace/icon-low.png') no-repeat  0 12px;  }*/
+
+/*目录风格*/
+.dir-content{ margin:0 0 0 100px; }
+.dir-content:after{  clear: both; content: " "; display: block; font-size: 0; height: 0; visibility: hidden; }
+.ui-list-dir{ width:150px; float:left; margin-top:5px;}
+.ui-list-dir .title-level1{ list-style:none; font-size:15px;color:#08C;}
+.ui-list-dir .title-level2{ padding-left:12px; line-height:16px; }
+.ui-list-dir .title-level2 a{ color:#888;}
+.ui-list-dir .title-level2 a:hover{ color:#08C;}
+/*空间页边距*/
+.ui-box-cotent-padding { padding: 0px 0px 0px 0px !important;}
+/*查看档案信息和企业报送信息链接按钮格式*/
+.ui-button-sblue {  margin: 0px 5px; border: 0px; background: #156fcd;  border-radius:4px;}
+.button-link-a { width: 90px; hight: 15px; margin: 0px 5px; border: 0px; color: #fff; background: #156fcc; border-radius:4px;}
+
+
+/*基本信息分页标签栏*/
+.ui-tab ul{ padding: 2px 2px 0 2px; }
+.ui-tab-items {background: #56abe4; }
+.ui-tab-items .ui-tab-item{padding-top: 10px;text-align: center;height: 82px;width: 120px;display: inline-block;}
+.ui-tab-items .ui-tab-item a{position: relative;top:39px;background: transparent;color:#fff;border: none;font-weight: 700;}
+.ui-tab-items .ui-tab-item i {color: #fff;position: absolute;top:10px;left: 3px;padding-left: 50%;margin-left: -15%;display: block;}
+.ui-tab-items .ui-tab-item:hover{cursor:pointer;}
+.ui-tab-items .ui-tab-item-current{background: #fff;}
+.ui-tab-items .ui-tab-item-current a{background: transparent;color:#56abe4;}
+.ui-tab-items .ui-tab-item-current i{color:#56abe4;}
+
+.ui-dlist-tit , .ui-dlist-det {
+    padding: 5px 0 5px 0;
+}
+
+.f30{font-size:30px !important}
+.ui-space-header .ui-space-header-epkey .ui-space-epapts .ui-item-epapt {	float: left;	padding:0 55px 10px 30px;	font-size: 15px;	background: url('../img/epspace/icon-apt.png') no-repeat 0 1px;}
+.ui-space-body-paragraph .paragraph-level2 {	min-height: 215px;}

@@ -1,0 +1,175 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>添加订单_推送者</title>
+    
+
+
+</head><body class="sysbd"><input type="hidden" id="path" value="">
+<script src="https://hm.baidu.com/hm.js?9b8046e03d671b7b25b1ecd13118ebd9"></script><script type="text/javascript">
+    var path = document.getElementById("path").value;
+    if (typeof(path) == 'undefined' ) {
+        path = "";
+    }
+</script>
+    <link rel="stylesheet" href="/front/css/user_sys.css" type="text/css">
+    <link rel="stylesheet" href="/front/css/base.css" type="text/css">
+    <link rel="stylesheet" href="/front/css/validationEngine.jquery.css" type="text/css">
+
+
+
+
+
+<div class="head">
+    <div class="hmain">
+        <div class="logo fl">
+            <a href="/"><img src="/front/images/logonew.png"></a></div>
+        <div class="welcomes fr">
+            
+            您好！sfx777 |  <a href="/login-out">[安全退出]</a>
+             <a href="/" target="_blank">官方首页</a>  <a href="/training">快排培训</a></div>
+    </div>
+</div>
+
+<div class="clear h20"></div>
+
+<div class="sysmain">
+    
+
+<div class="leftnav w200 mr20 fl">
+    <div class="yhzx"><em></em>用户中心</div>
+    <dl>
+        <dt class="zhgl"><a href="#"><em></em>账户管理</a></dt>
+        <dd><a href="/user/mine">个人中心</a></dd>
+        <dd><a href="/user/info">基本信息</a></dd>
+        <dd><a href="/user/password">修改密码</a></dd>
+    </dl>
+    <dl>
+        <dt class="tbsc"><a href="#"><em></em>推币商城</a></dt>
+        <dd><a href="/user/tuibi/gm">购买推币</a></dd>
+        <dd><a href="/user/chongzhi" target="_blank">账户充值</a></dd>
+       <dd><a href="/activity/extend">推荐奖励</a></dd>
+    </dl>
+    <dl>
+        <dt class="rwgl"><a href="#"><em></em>任务管理</a></dt>
+        <dd><a href="/orders/add/tj">添加任务</a></dd>
+        <dd><a href="/orders/pc/all/20/1">pc排名</a></dd>
+        <dd><a href="/orders/mb/all/20/1">手机排名</a></dd>
+    </dl>
+</div>
+
+
+    <div class="rightcont fl">
+        <div class="rightmain">
+            <div class="sysmbx">您当前的位置：<a href="/">首页</a> &gt;<a href="/user/mine">用户中心</a> &gt; <a href="#">添加订单</a></div>
+            <div class="botos">
+                <div class="ddtishi">
+                    <h5>添加任务必读</h5>
+                    <p>推送者快排服务的前提是：<strong>你提供的关键词对应网址的排名已经在百度前十页</strong>，非前十页我们暂时无法优化；排名任务一般7~20天见效，<strong>不到首页不收取任务报价费用</strong>。但是由于部分网站可能由于自身服务器站内内容频繁更改等原因造成排名失败，而且每个任务都需要人力资源去维护，因此，<strong>20天内还未进入首页的关键词任务我们将自动关闭，并扣除20推币作为基础优化费用</strong>。<br> 推送者快速排名可以促进排名提升，时间越久排名越靠前，如到首页一段时间后停止使用，排名很有可能下降，再次恢复难度较大，请及时关注关键词是否需续费。<br> 提交任务相关详细技巧请查看《<strong><a href="/training">快排培训</a></strong>》栏目。</p>
+                </div>
+                <div class="clear h20"></div>
+                <h3 class="czh">添加订单</h3>
+                <div class="tjddmain">
+                    <div>
+                        <form action="" id="search_jc_form" class="">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <thead>
+                                <tr style="background:#eee;">
+                                    <td width="13%"><strong>搜索引擎</strong></td>
+                                    <td width="19%"><strong>关键词</strong></td>
+                                    <td width="19%"><strong>网址</strong></td>
+                                    <td width="10%"><strong>检测</strong></td>
+                                    <td width="9%"><strong>排名结果</strong></td>
+                                    <td width="16%"><strong>优化建议</strong></td>
+                                    <td width="10%"><strong>收费报价(币/月)</strong></td>
+                                    <td width="4%"></td>
+                                </tr>
+                                </thead>
+                                <tbody id="search_tbody">
+                                <tr class="0">
+                                    <td>
+                                        <select class="w100 search_engines_type" name="searchEnginesType">
+                                            <option value="1">百度PC</option>
+                                            <option value="2">百度手机</option>
+                                        </select>
+                                    </td>
+                                    <td><div class="form-validation-field-0formError parentFormsearch_jc_form formError" style="opacity: 0.87; position: absolute; top: 458px; left: 866px; right: initial; margin-top: -29px;"><div class="formErrorContent">* 此项必填</div><div class="formErrorArrow"><div class="line10"><!-- --></div><div class="line9"><!-- --></div><div class="line8"><!-- --></div><div class="line7"><!-- --></div><div class="line6"><!-- --></div><div class="line5"><!-- --></div><div class="line4"><!-- --></div><div class="line3"><!-- --></div><div class="line2"><!-- --></div><div class="line1"><!-- --></div></div></div><input class="validate[required,maxSize[100]] w150 key_word" type="text" name="keyWord" id="form-validation-field-0"></td>
+                                    <td><input class="validate[required,custom[web_url]] w150 web_url" type="text" name="webUrl" id="form-validation-field-1">
+                                        <input class="price" type="hidden" name="price">
+                                        <input class="initial_ranking" type="hidden" name="initialRanking">
+                                    </td>
+                                    <td><input type="button" value="检测报价" class="jcbj_btn"></td>
+                                    <td class="index_page"></td>
+                                    <td><span class="jyzhi"></span></td>
+                                    <td><strong class="fred"></strong><br><s class="original_price"></s></td>
+                                    <td><a class="del_xx" title="删除该任务" href="javascript:void(0);">X</a></td>
+                                </tr>
+
+                                </tbody>
+                                <tfoot>
+                                <tr>
+                                    <td><input class="w100" type="button" id="tj_key_word" value="+添加关键词"></td>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                    <td><input type="button" id="qk_check_key_word" value="一键检测"></td>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                    <td>合计：<span class="total_count">0</span><br><s class="total_original_price"></s><input class="total_count_v" type="hidden" value="0"></td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                </tfoot>
+                            </table>
+                        </form>
+                    </div>
+                    <div class="jiesuan_ico">
+                        <button type="button" id="settlement">进入结算</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clear"></div>
+
+<div class="clear h40"></div>
+<div class="footer">
+    <div class="ftleft">
+        <p class="fl">
+            <a href="/faq">常见问题</a> |
+            <a href="/about">关于我们</a> |
+            <a href="/contacts">联系我们</a> |
+            <a href="/cooperation">商务合作</a>|
+            <a href="#">网站地图</a> |
+            <a href="/privacy">隐私申明</a> <br>
+            400客服电话：400-902-8550  地址：上海市闵行区陈行公路2388号浦江科技广场5号楼5楼<br>
+            推送者关键词快速排名系统-上海优槃网络科技有限公司旗下网站 <a href="http://www.miitbeian.gov.cn" target="_blank">沪ICP备16031230号-2</a>  </p>
+       <a href="/"><img src="/front/images/logo_white.png" alt="" class="fr"></a>
+    </div>
+</div>
+<div class="toolbar">
+    <div class="toolbar-item toolbar-item-feedback">
+        <a title="推送者在线客服" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1216218929&amp;site=qq&amp;menu=yes" target="_blank">推送者在线客服</a>
+    </div>
+    <div class="toolbar-item toolbar-item-weixin"><span class="toolbar-layer"></span></div>
+    <div class="toolbar-item toolbar-item-app"><span class="toolbar-layer">
+     <a href="//shang.qq.com/wpa/qunwpa?idkey=4ef48fde370e5f074f34393b3a5a1a8498c3e3ddd0de4f78b35dab4cfc4e45a3" target="_blank">快速排名1群</a>
+     <a href="//shang.qq.com/wpa/qunwpa?idkey=b72a9b546363318d52d95868879416e75fcc663198ea51c7f210f2ef29a32bec" target="_blank">快速排名2群</a>
+   </span></div>
+    <div id="top" class="toolbar-item toolbar-item-top"><a href="javascript:scroll(0,0)">Top</a></div>
+</div>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?9b8046e03d671b7b25b1ecd13118ebd9";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+<script language="javascript" src="/front/js/common/common.js"></script><link rel="stylesheet" href="/front/css/ui-dialog.css"><script type="text/javascript" src="/front/js/common/jquery-1.7.2.min.js"></script><script type="text/javascript" src="/front/js/common/dialog-min.js"></script>
+<script src="/front/js/common/jquery.validationEngine-zh_CN.js" type="text/javascript" charset="utf-8"></script>
+<script src="/front/js/common/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="/front/js/order/order-tianjia.js"></script>
+
+</body></html>

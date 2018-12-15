@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+/* 风格重载 */
+.input-group{
+	width: 100%;
+}
+.input-group-addon{
+	width: 80px;
+	font-weight: bold;
+}
+
+.jumbotron{
+	
+}
+
+.jumbotron h1{
+	text-align: center;
+}
+
+.jumbotron h1 .iconfont{
+	font-size: 50px;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/**
+ +------------------------------------------------------------------------------
+ * 移动端加盟合作样式
+ +------------------------------------------------------------------------------
+ * @author    Richer <yangzi1028@163.com>
+ * @version   2017年08月03日 11:37:20
+ +------------------------------------------------------------------------------
+ */
+.banner a:nth-child(2) { display: inline-block; width: 12vw; height: 40px; position: absolute; bottom: 18%; left: 32.5vw; }
+.banner { position: relative; }
+.banner a:nth-child(3) { display: inline-block; width: 17vw; height: 40px; position: absolute; bottom: 18%; left: 47vw; }
+.head_top_1 { padding: 20px 0; text-align: center; }
+.head_top_1 span { color: #00B6FF; }
+.head_top_1 h1 { display: inline-block; font-size: 28px; font-weight: normal; border-bottom: 2px solid #00B6FF; padding: 8px 10px; }
+.cur { padding-bottom: 50px; }
+.cur .list .block { width: 44.5%; margin: 0 2.5%; float: left;  border: 1px solid #E4E4E4; margin-top: 20px; overflow: hidden; *zoom: 1;padding-bottom: 10px; background: #fff;}
+.cur .list .block .left { float: left; width: 80px}
+.cur .list .block .left img { height: 60px; padding-top: 30px; padding-left: 10px; }
+.cur .list .block .right { margin-top: 25px;margin-left: 90px ;padding-right: 10px; }
+.cur .list .block .right h3 { font-weight: normal; color: #333; font-size: 18px; padding-bottom: 7px; }
+.cur .list .block .right p { color: #6A6A6A; line-height: 150%; font-size: 16px; }
+.search { background: #f8f8f8; /*padding-bottom: 80px;*/ }
+.search .text { color: #6A6A6a; font-size: 16px; text-align: center; padding-bottom: 10px;padding:0 20px 10px 20px}
+.search .width_20 { width: 19.8%; float: left; text-align: center;border-top: 1px solid #E4E4E4; border-right: 1px solid #E4E4E4;border-bottom :1px solid #E4E4E4;background: #fff; }
+.search .width_20:hover{ background:#fafafa;}
+.search .width_20 img { width: 60px; margin-top: 35px; margin-bottom: 20px; }
+.search .width_20 span { display: block; font-size: 16px; padding-bottom: 5px; }
+.search .width_20 p { width: 85%; margin: 0 auto; line-height: 160%; color: #999; text-align: left; font-size: 15px; }
+.agent_1 { background: #F8F8F8; padding-bottom: 60px; }
+.agent_1 h1 p { font-size: 16px; color: #6A6A6A; padding: 3px 0; }
+.agent_1 .bottom img { width: 100%; padding-bottom: 50px; }
+.agent_1 .bottom { position: relative; }
+.agent_1 .bottom span { position: absolute; color: #696969; font-size: 15.5px;width: 18%;top:40px; text-align: center;padding: 5px 10px;}
+.agent_1 .bottom span:nth-child(2) { bottom: 8%; left: 7.5%; }
+.agent_1 .bottom span:nth-child(3) { bottom: 8%; left: 27.5%; }
+.agent_1 .bottom span:nth-child(4) { bottom: 8%; left: 47.5%; }
+.agent_1 .bottom span:nth-child(5) { bottom: 21%; left: 67.5%; }
+.join { text-align: center; padding-bottom: 65px; }
+.join .text { color: #6A6A6a; font-size: 18px; text-align: center; padding-bottom: 10px; line-height: 160%; padding-bottom: 45px; padding:0 20px 10px 20px}
+.join a { padding: 9px 20px; background: #078ada; color: #fff; font-size: 18px; }
+
+/* 我的业务九宫格 end ======================>*/

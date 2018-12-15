@@ -1,0 +1,249 @@
+@CHARSET "UTF-8";
+/**
+ +------------------------------------------------------------------------------
+ * layui样式重写 
+ +------------------------------------------------------------------------------
+ * @author    Richer <yangzi1028@163.com>
+ * @version   2017年5月25日10:19:26
+ +------------------------------------------------------------------------------
+ */
+
+/* .layui-nav.layui-nav-to1p .layui-nav-item {
+    height: 90px;
+}
+.layui-nav.layui-nav-to1p .layui-nav-item {
+    line-height: 90px;
+}
+.layui-nav.layui-nav-t1op .layui-nav-more {
+    top: 43px;
+} */
+
+/* 按钮样式重写 begin ======================>*/
+.layui-btn {
+	background-color: #3C444D;
+}
+
+.layui-btn-danger {
+	background-color: #D9524E;
+}
+
+.layui-btn-primary {
+	background-color: #fff;
+}
+
+.layui-btn-warm {
+	background-color: #F7B824;
+}
+
+.layui-btn-normal {
+	background-color: #1E9FFF;
+}
+
+.layui-btn-disabled, .layui-btn-disabled:hover, .layui-btn-disabled:active
+	{
+	border: 1px solid #e6e6e6;
+	background-color: #FBFBFB;
+	color: #C9C9C9;
+	cursor: not-allowed;
+	opacity: 1;
+}
+
+
+.layui-btn+.layui-btn {
+    margin-left: 0px;
+}
+
+
+/* 按钮样式重写 end ======================>*/
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+	/* position: absolute;
+	left: -1px;
+	top: -1px;
+	padding: 1px;
+	width: 100%;
+	height: 100%; */
+	background-color: #3C444D;
+}
+
+/* 表达必填样式 begin ======================>*/
+
+.layui-form-label {
+    padding: 9px 0;
+    width: 90px;
+}
+
+.layui-input-inline {
+    /*margin-left: 20px;*/
+}
+
+.layui-input-block {
+} 
+.layui-form-label.required:after {
+	content: '*';
+	color: red;
+	font-size: 18px;
+	width: 10px;
+	height: 20px;
+	clear:both; 
+	display:inline-block; 
+	line-height: 20px;
+	vertical-align: middle;
+	padding-top: 2px;
+}
+/* 表达必填样式 begin ======================>*/
+
+/* table样式 begin ======================>*/
+.layui-table{
+	
+}
+.layui-table th {
+    background: #F5F9FA !important;
+}
+.layui-table td, .layui-table{
+   
+    font-size: 12px;
+}
+.layui-table th, .layui-table td {
+    border: 1px solid #eee;
+}
+.layui-checkbox-disbaled i {
+    background-color: #eee !important;
+    color: #eee !important;
+}
+
+.layui-table td, .layui-table th {
+    padding: 6px 5px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.layui-table tr:hover, .layui-table[lay-even] tr:nth-child(even) {
+	background-color: #F5F9FA;
+}
+
+.layui-table td:last-child{
+    text-align: left;
+}
+
+.layui-table td.layui-table-nodata{
+	height:50px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/* 分页框样式 begin ======================>*/
+.layui-laypage span {
+    color: #333; 
+    font-weight: normal;
+}
+
+.layui-form{
+	 background: #fff;
+}
+
+
+/* 信息提示框样式 begin ======================>*/
+.layui-elem-quote {
+    margin-bottom: 20px;
+    border-left: none;
+    background: #d9edf7;
+}
+.layui-elem-quote span {
+	color: #f00;
+	margin-right: 10px;
+}
+
+.layui-elem-quote .bg-primary{
+	color: #fff;
+    background-color: #337ab7;
+}
+
+.bg-success {
+    background-color: #dff0d8;
+}
+
+.bg-info {
+    background-color: #d9edf7;
+}
+
+.bg-warning {
+    background-color: #fcf8e3;
+}
+
+.bg-danger {
+    background-color: #f2dede;
+}
+
+.layui-tab-content {
+    background: #fff;
+}
+
+/*下拉选中框样式*/
+.layui-form-select dl {
+    padding: 0;
+    border: 1px solid #d2d2d2;
+}
+.layui-form-select dl dd:hover {
+    background-color: #3C444D;
+    color: #fff;
+    border: none;
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color: #222A35;
+}
+
+.layui-nav-child dd.layui-this {
+    background-color: #3C444D;
+    color: #fff !important;
+}
+.layui-nav .layui-nav-child a:hover,.layui-nav-child dd.layui-this a:hover{
+   background-color: #3C444D;
+    color: #fff !important;
+}
+.layui-nav-child dd.layui-this a{
+    color: #fff !important;
+}
+
+
+/* 下拉箭头样式*/
+.layui-nav .layui-nav-more {
+	border-color: #fff transparent transparent;
+}
+
+.layui-nav .layui-nav-mored, .layui-nav-itemed .layui-nav-more {
+
+	border-color: transparent transparent #fff
+}
+
+.ui-menu .layui-nav .layui-nav-more {
+	border-color: #85919e transparent transparent;
+}
+
+.ui-menu .layui-nav .layui-nav-mored, .ui-menu .layui-nav-itemed .layui-nav-more {
+	border-color: transparent transparent #fff
+}
+
+.col-md-3 {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+/* tab 切换 样式 begin ======================>*/
+.layui-tab-brief>.layui-tab-title .layui-this {
+    color: #3C444D;
+}
+.layui-tab-brief>.layui-tab-title .layui-this {
+    color: #3C444D;
+}
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after {
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid #3C444D;
+}
+
+.layui-nav-tree .layui-nav-child dd.layui-this, .layui-nav-tree .layui-nav-child dd.layui-this a, .layui-nav-tree .layui-this, .layui-nav-tree .layui-this>a, .layui-nav-tree .layui-this>a:hover {
+    background-color: #373954;
+    color: #fff;
+}

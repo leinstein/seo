@@ -1,0 +1,660 @@
+[ 2018-12-14T00:02:56+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2018-12-14T00:03:01+08:00 ] 127.0.0.1 /Keyword/doAdd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+NOTIC: [2048] Declaration of KeywordAction::index() should be compatible with that of BaseAction::index() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [2048] Declaration of KeywordAction::delete() should be compatible with that of BaseAction::delete() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [8] Undefined index: from E:\PHP\seo\Lib\Action\BaseAction.class.php 第 80 行.
+NOTIC: [8] Undefined index: href_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: request_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: open_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [2048] Declaration of UserModel::getLoginUserType() should be compatible with that of BaseModel::getloginUserType() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of ServerUserModel::selectOne() should be compatible with that of UserModel::selectOne() E:\PHP\seo\Lib\Model\User\ServerUserModel.class.php 第 12 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `ts_sys_user` [ RunTime:0.003841s ]
+NOTIC: [2048] Declaration of ProductModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ts_sys_product` [ RunTime:0.003431s ]
+NOTIC: [2] Missing argument 1 for ProductModel::queryRecordAll(), called in E:\PHP\seo\Lib\Action\BaseAction.class.php on line 184 and defined E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 74 行.
+NOTIC: [8] Undefined variable: map E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 76 行.
+SQL: SELECT * FROM `ts_sys_product` LIMIT 0,10000   [ RunTime:0.000265s ]
+NOTIC: [8] Undefined index: id E:\PHP\seo\Lib\Action\BaseAction.class.php 第 216 行.
+NOTIC: [2048] Declaration of WorkorderModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 629 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder` [ RunTime:0.003586s ]
+NOTIC: [2048] Declaration of WorkorderReplyModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 208 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder_reply` [ RunTime:0.003503s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_biz_workorder` WHERE ( `touserid` = '237' ) AND ( `bizstatus` = '未处理' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT `id` FROM `ts_biz_workorder` WHERE ( `bizstatus` = '操作中' ) AND ( `status` = 1 ) AND ( (`touserid` = '237') OR (`createuserid` = '237') ) LIMIT 0,10000   [ RunTime:0.000240s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Missing argument 2 for WorkorderModel::myTransData(), called in E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php on line 88 and defined E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 173 行.
+NOTIC: [8] Undefined variable: productids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [8] Undefined variable: siteids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 300 行.
+NOTIC: [8] Undefined variable: type E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 318 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 600 行.
+NOTIC: [2048] Declaration of CartModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\CartModel.class.php 第 314 行.
+SQL: SHOW COLUMNS FROM `ts_cart` [ RunTime:0.004400s ]
+SQL: INSERT INTO `ts_cart` (`keyword`,`unit`,`unit2`,`createuserid`,`createusername`,`cartstatus`,`createtime`,`status`,`regtime`,`reguser`,`searchengine`,`price`,`initial_price`) VALUES ('123123213','元','天',0,0,'待购买','2018-12-14 00:03:01',1,1544716981,0,'baidu','14','14'),('123123213','元','天',0,0,'待购买','2018-12-14 00:03:01',1,1544716981,0,'baidu_mobile','17','17') [ RunTime:0.000209s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.055818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parent E:\PHP\seo\Runtime\Cache\Service\b0092526fd16997b025a1f37dcb4345a.php 第 16 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.056298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003353s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.059667s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.059949s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.060219s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.060450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.060824s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-12-14T00:03:03+08:00 ] 127.0.0.1 /Keyword/search?m=Keyword&a=search&g=Service&kws=123123213
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2048] Declaration of KeywordAction::index() should be compatible with that of BaseAction::index() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [2048] Declaration of KeywordAction::delete() should be compatible with that of BaseAction::delete() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [8] Undefined index: from E:\PHP\seo\Lib\Action\BaseAction.class.php 第 80 行.
+NOTIC: [8] Undefined index: href_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: request_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: open_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [2048] Declaration of UserModel::getLoginUserType() should be compatible with that of BaseModel::getloginUserType() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of ServerUserModel::selectOne() should be compatible with that of UserModel::selectOne() E:\PHP\seo\Lib\Model\User\ServerUserModel.class.php 第 12 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `ts_sys_user` [ RunTime:0.004206s ]
+NOTIC: [2048] Declaration of ProductModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ts_sys_product` [ RunTime:0.004592s ]
+NOTIC: [2] Missing argument 1 for ProductModel::queryRecordAll(), called in E:\PHP\seo\Lib\Action\BaseAction.class.php on line 184 and defined E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 74 行.
+NOTIC: [8] Undefined variable: map E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 76 行.
+SQL: SELECT * FROM `ts_sys_product` LIMIT 0,10000   [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: id E:\PHP\seo\Lib\Action\BaseAction.class.php 第 216 行.
+NOTIC: [2048] Declaration of WorkorderModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 629 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder` [ RunTime:0.003372s ]
+NOTIC: [2048] Declaration of WorkorderReplyModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 208 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder_reply` [ RunTime:0.003541s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_biz_workorder` WHERE ( `touserid` = '237' ) AND ( `bizstatus` = '未处理' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT `id` FROM `ts_biz_workorder` WHERE ( `bizstatus` = '操作中' ) AND ( `status` = 1 ) AND ( (`touserid` = '237') OR (`createuserid` = '237') ) LIMIT 0,10000   [ RunTime:0.000222s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Missing argument 2 for WorkorderModel::myTransData(), called in E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php on line 88 and defined E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 173 行.
+NOTIC: [8] Undefined variable: productids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [8] Undefined variable: siteids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 300 行.
+NOTIC: [8] Undefined variable: type E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 318 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 600 行.
+NOTIC: [2048] Declaration of KeywordModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 2769 行.
+NOTIC: [2048] Declaration of KeywordModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 2769 行.
+SQL: SHOW COLUMNS FROM `ts_keyword` [ RunTime:0.003744s ]
+NOTIC: [8] Undefined index: keywords E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 308 行.
+NOTIC: [8] Undefined index: keyword E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 1365 行.
+NOTIC: [8] Undefined index: keyword E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 1376 行.
+NOTIC: [8] Undefined variable: return E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: tpl E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 349 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.403460s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page_title E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 6 行.
+NOTIC: [8] Undefined index: fileid E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 351 行.
+NOTIC: [2] Missing argument 2 for title_show(), called in E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php on line 365 and defined E:\PHP\seo\Common\common.php 第 263 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: product_name E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 537 行.
+NOTIC: [8] Undefined index: isrecommend E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 565 行.
+NOTIC: [8] Undefined index: isrecommend E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 596 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.404534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023093s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.427620s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.428125s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.428433s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.428680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.429098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-12-14T00:03:04+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2018-12-14T00:09:28+08:00 ] 127.0.0.1 /Cart/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000538s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [2048] Declaration of CartAction::index() should be compatible with that of BaseAction::index() E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 11 行.
+NOTIC: [2048] Declaration of CartAction::delete() should be compatible with that of BaseAction::delete() E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 11 行.
+NOTIC: [8] Undefined index: from E:\PHP\seo\Lib\Action\BaseAction.class.php 第 80 行.
+NOTIC: [8] Undefined index: href_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: request_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: open_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [2048] Declaration of UserModel::getLoginUserType() should be compatible with that of BaseModel::getloginUserType() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of ServerUserModel::selectOne() should be compatible with that of UserModel::selectOne() E:\PHP\seo\Lib\Model\User\ServerUserModel.class.php 第 12 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `ts_sys_user` [ RunTime:0.004047s ]
+NOTIC: [2048] Declaration of ProductModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ts_sys_product` [ RunTime:0.004395s ]
+NOTIC: [2] Missing argument 1 for ProductModel::queryRecordAll(), called in E:\PHP\seo\Lib\Action\BaseAction.class.php on line 184 and defined E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 74 行.
+NOTIC: [8] Undefined variable: map E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 76 行.
+SQL: SELECT * FROM `ts_sys_product` LIMIT 0,10000   [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: id E:\PHP\seo\Lib\Action\BaseAction.class.php 第 216 行.
+NOTIC: [2048] Declaration of WorkorderModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 629 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder` [ RunTime:0.004555s ]
+NOTIC: [2048] Declaration of WorkorderReplyModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 208 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder_reply` [ RunTime:0.004123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_biz_workorder` WHERE ( `touserid` = '237' ) AND ( `bizstatus` = '未处理' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT `id` FROM `ts_biz_workorder` WHERE ( `bizstatus` = '操作中' ) AND ( `status` = 1 ) AND ( (`touserid` = '237') OR (`createuserid` = '237') ) LIMIT 0,10000   [ RunTime:0.000205s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Missing argument 2 for WorkorderModel::myTransData(), called in E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php on line 88 and defined E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 173 行.
+NOTIC: [8] Undefined variable: productids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [8] Undefined variable: siteids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 300 行.
+NOTIC: [8] Undefined variable: type E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 318 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 600 行.
+NOTIC: [2048] Declaration of CartModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\CartModel.class.php 第 314 行.
+SQL: SHOW COLUMNS FROM `ts_cart` [ RunTime:0.003415s ]
+NOTIC: [2048] Declaration of SiteModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\SiteModel.class.php 第 763 行.
+NOTIC: [2048] Declaration of SiteModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\SiteModel.class.php 第 763 行.
+SQL: SHOW COLUMNS FROM `ts_site` [ RunTime:0.004209s ]
+NOTIC: [8] Undefined variable: fields E:\PHP\seo\Lib\Model\Biz\CartModel.class.php 第 125 行.
+SQL: SELECT * FROM `ts_cart` WHERE ( `createuserid` = '237' ) AND ( `status` = 1 ) AND ( `cartstatus` = '待购买' ) ORDER BY regtime desc LIMIT 0,10000   [ RunTime:0.001420s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\CartModel.class.php 第 42 行.
+NOTIC: [8] Undefined variable: fields E:\PHP\seo\Lib\Model\Biz\SiteModel.class.php 第 334 行.
+SQL: SELECT * FROM `ts_site` WHERE ( `createuserid` = '237' ) AND ( `status` = 1 ) LIMIT 0,10000   [ RunTime:0.000500s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\SiteModel.class.php 第 66 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: sitesOptions E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: tpl E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.069281s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: values E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 152 行.
+NOTIC: [8] Undefined index: output E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 153 行.
+NOTIC: [8] Undefined index: multiple E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 154 行.
+NOTIC: [8] Undefined index: size E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 156 行.
+NOTIC: [8] Undefined index: selected E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 158 行.
+NOTIC: [8] Undefined index: dblclick E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 160 行.
+NOTIC: [8] Undefined index: change E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 161 行.
+NOTIC: [8] Undefined index: lay_verify E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 162 行.
+NOTIC: [8] Undefined index: lay_filter E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 163 行.
+NOTIC: [8] Undefined index: readonly E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 164 行.
+NOTIC: [8] Undefined index: lay_search E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 165 行.
+NOTIC: [8] Undefined index: values E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 152 行.
+NOTIC: [8] Undefined index: output E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 153 行.
+NOTIC: [8] Undefined index: multiple E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 154 行.
+NOTIC: [8] Undefined index: size E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 156 行.
+NOTIC: [8] Undefined index: selected E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 158 行.
+NOTIC: [8] Undefined index: dblclick E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 160 行.
+NOTIC: [8] Undefined index: change E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 161 行.
+NOTIC: [8] Undefined index: lay_verify E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 162 行.
+NOTIC: [8] Undefined index: lay_filter E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 163 行.
+NOTIC: [8] Undefined index: readonly E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 164 行.
+NOTIC: [8] Undefined index: lay_search E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 165 行.
+NOTIC: [8] Undefined variable: page_title E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 6 行.
+NOTIC: [8] Undefined index: fileid E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 239 行.
+NOTIC: [2] Missing argument 2 for title_show(), called in E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php on line 253 and defined E:\PHP\seo\Common\common.php 第 263 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [8] Undefined index: product_name E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 385 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 438 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.070014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023671s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.093708s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.094042s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.094319s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.094549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.094919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-12-14T00:09:28+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2018-12-14T00:10:53+08:00 ] 127.0.0.1 /Cart/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [2048] Declaration of CartAction::index() should be compatible with that of BaseAction::index() E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 11 行.
+NOTIC: [2048] Declaration of CartAction::delete() should be compatible with that of BaseAction::delete() E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 11 行.
+NOTIC: [8] Undefined index: from E:\PHP\seo\Lib\Action\BaseAction.class.php 第 80 行.
+NOTIC: [8] Undefined index: href_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: request_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: open_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [2048] Declaration of UserModel::getLoginUserType() should be compatible with that of BaseModel::getloginUserType() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of ServerUserModel::selectOne() should be compatible with that of UserModel::selectOne() E:\PHP\seo\Lib\Model\User\ServerUserModel.class.php 第 12 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `ts_sys_user` [ RunTime:0.005718s ]
+NOTIC: [2048] Declaration of ProductModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ts_sys_product` [ RunTime:0.004993s ]
+NOTIC: [2] Missing argument 1 for ProductModel::queryRecordAll(), called in E:\PHP\seo\Lib\Action\BaseAction.class.php on line 184 and defined E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 74 行.
+NOTIC: [8] Undefined variable: map E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 76 行.
+SQL: SELECT * FROM `ts_sys_product` LIMIT 0,10000   [ RunTime:0.000315s ]
+NOTIC: [8] Undefined index: id E:\PHP\seo\Lib\Action\BaseAction.class.php 第 216 行.
+NOTIC: [2048] Declaration of WorkorderModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 629 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder` [ RunTime:0.004860s ]
+NOTIC: [2048] Declaration of WorkorderReplyModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 208 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder_reply` [ RunTime:0.005257s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_biz_workorder` WHERE ( `touserid` = '237' ) AND ( `bizstatus` = '未处理' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT `id` FROM `ts_biz_workorder` WHERE ( `bizstatus` = '操作中' ) AND ( `status` = 1 ) AND ( (`touserid` = '237') OR (`createuserid` = '237') ) LIMIT 0,10000   [ RunTime:0.000255s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Missing argument 2 for WorkorderModel::myTransData(), called in E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php on line 88 and defined E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 173 行.
+NOTIC: [8] Undefined variable: productids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [8] Undefined variable: siteids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 300 行.
+NOTIC: [8] Undefined variable: type E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 318 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 600 行.
+NOTIC: [2048] Declaration of CartModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\CartModel.class.php 第 314 行.
+SQL: SHOW COLUMNS FROM `ts_cart` [ RunTime:0.003864s ]
+NOTIC: [2048] Declaration of SiteModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\SiteModel.class.php 第 763 行.
+NOTIC: [2048] Declaration of SiteModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\SiteModel.class.php 第 763 行.
+SQL: SHOW COLUMNS FROM `ts_site` [ RunTime:0.003617s ]
+NOTIC: [8] Undefined variable: fields E:\PHP\seo\Lib\Model\Biz\CartModel.class.php 第 125 行.
+SQL: SELECT * FROM `ts_cart` WHERE ( `createuserid` = '237' ) AND ( `status` = 1 ) AND ( `cartstatus` = '待购买' ) ORDER BY regtime desc LIMIT 0,10000   [ RunTime:0.001189s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\CartModel.class.php 第 42 行.
+NOTIC: [8] Undefined variable: fields E:\PHP\seo\Lib\Model\Biz\SiteModel.class.php 第 334 行.
+SQL: SELECT * FROM `ts_site` WHERE ( `createuserid` = '237' ) AND ( `status` = 1 ) LIMIT 0,10000   [ RunTime:0.000290s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\SiteModel.class.php 第 66 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: sitesOptions E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 52 行.
+NOTIC: [8] Undefined variable: tpl E:\PHP\seo\Lib\Action\Service\CartAction.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.070345s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: values E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 152 行.
+NOTIC: [8] Undefined index: output E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 153 行.
+NOTIC: [8] Undefined index: multiple E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 154 行.
+NOTIC: [8] Undefined index: size E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 156 行.
+NOTIC: [8] Undefined index: selected E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 158 行.
+NOTIC: [8] Undefined index: dblclick E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 160 行.
+NOTIC: [8] Undefined index: change E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 161 行.
+NOTIC: [8] Undefined index: lay_verify E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 162 行.
+NOTIC: [8] Undefined index: lay_filter E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 163 行.
+NOTIC: [8] Undefined index: readonly E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 164 行.
+NOTIC: [8] Undefined index: lay_search E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 165 行.
+NOTIC: [8] Undefined index: values E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 152 行.
+NOTIC: [8] Undefined index: output E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 153 行.
+NOTIC: [8] Undefined index: multiple E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 154 行.
+NOTIC: [8] Undefined index: size E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 156 行.
+NOTIC: [8] Undefined index: selected E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 158 行.
+NOTIC: [8] Undefined index: dblclick E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 160 行.
+NOTIC: [8] Undefined index: change E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 161 行.
+NOTIC: [8] Undefined index: lay_verify E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 162 行.
+NOTIC: [8] Undefined index: lay_filter E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 163 行.
+NOTIC: [8] Undefined index: readonly E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 164 行.
+NOTIC: [8] Undefined index: lay_search E:\PHP\seo\Core\Extend\Driver\TagLib\TagLibHtml.class.php 第 165 行.
+NOTIC: [8] Undefined variable: page_title E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 6 行.
+NOTIC: [8] Undefined index: fileid E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 239 行.
+NOTIC: [2] Missing argument 2 for title_show(), called in E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php on line 253 and defined E:\PHP\seo\Common\common.php 第 263 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 269 行.
+NOTIC: [8] Undefined index: product_name E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 385 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Runtime\Cache\Service\376c4b5be2a62a85d1ea704e25316bfc.php 第 438 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.070761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011468s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.082252s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.082582s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.082840s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.083054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001129s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.083414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-12-14T00:13:03+08:00 ] 127.0.0.1 /Keyword/search
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.014163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014215s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+NOTIC: [2048] Declaration of KeywordAction::index() should be compatible with that of BaseAction::index() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [2048] Declaration of KeywordAction::delete() should be compatible with that of BaseAction::delete() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [8] Undefined index: from E:\PHP\seo\Lib\Action\BaseAction.class.php 第 80 行.
+NOTIC: [8] Undefined index: href_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: request_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: open_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [2048] Declaration of UserModel::getLoginUserType() should be compatible with that of BaseModel::getloginUserType() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of ServerUserModel::selectOne() should be compatible with that of UserModel::selectOne() E:\PHP\seo\Lib\Model\User\ServerUserModel.class.php 第 12 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `ts_sys_user` [ RunTime:0.014263s ]
+NOTIC: [2048] Declaration of ProductModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ts_sys_product` [ RunTime:0.006785s ]
+NOTIC: [2] Missing argument 1 for ProductModel::queryRecordAll(), called in E:\PHP\seo\Lib\Action\BaseAction.class.php on line 184 and defined E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 74 行.
+NOTIC: [8] Undefined variable: map E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 76 行.
+SQL: SELECT * FROM `ts_sys_product` LIMIT 0,10000   [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: id E:\PHP\seo\Lib\Action\BaseAction.class.php 第 216 行.
+NOTIC: [2048] Declaration of WorkorderModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 629 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder` [ RunTime:0.005808s ]
+NOTIC: [2048] Declaration of WorkorderReplyModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 208 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder_reply` [ RunTime:0.004308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_biz_workorder` WHERE ( `touserid` = '237' ) AND ( `bizstatus` = '未处理' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT `id` FROM `ts_biz_workorder` WHERE ( `bizstatus` = '操作中' ) AND ( `status` = 1 ) AND ( (`touserid` = '237') OR (`createuserid` = '237') ) LIMIT 0,10000   [ RunTime:0.000175s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Missing argument 2 for WorkorderModel::myTransData(), called in E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php on line 88 and defined E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 173 行.
+NOTIC: [8] Undefined variable: productids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [8] Undefined variable: siteids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 300 行.
+NOTIC: [8] Undefined variable: type E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 318 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 600 行.
+NOTIC: [2048] Declaration of KeywordModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 2769 行.
+NOTIC: [2048] Declaration of KeywordModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 2769 行.
+SQL: SHOW COLUMNS FROM `ts_keyword` [ RunTime:0.004109s ]
+NOTIC: [8] Undefined index: kws E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 306 行.
+NOTIC: [8] Undefined index: keywords E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 308 行.
+NOTIC: [8] Undefined variable: list E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 343 行.
+NOTIC: [8] Undefined variable: tpl E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 349 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.077555s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page_title E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 6 行.
+NOTIC: [8] Undefined index: fileid E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 351 行.
+NOTIC: [2] Missing argument 2 for title_show(), called in E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php on line 365 and defined E:\PHP\seo\Common\common.php 第 263 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: product_name E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 537 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.078073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013036s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.091120s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.091488s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.091762s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.091984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.092343s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-12-14T00:13:12+08:00 ] 127.0.0.1 /Keyword/search?m=Keyword&a=search&g=Service&kws=%E6%89%A3%E6%89%A3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+NOTIC: [2048] Declaration of KeywordAction::index() should be compatible with that of BaseAction::index() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [2048] Declaration of KeywordAction::delete() should be compatible with that of BaseAction::delete() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [8] Undefined index: from E:\PHP\seo\Lib\Action\BaseAction.class.php 第 80 行.
+NOTIC: [8] Undefined index: href_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: request_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: open_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [2048] Declaration of UserModel::getLoginUserType() should be compatible with that of BaseModel::getloginUserType() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of ServerUserModel::selectOne() should be compatible with that of UserModel::selectOne() E:\PHP\seo\Lib\Model\User\ServerUserModel.class.php 第 12 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `ts_sys_user` [ RunTime:0.016252s ]
+NOTIC: [2048] Declaration of ProductModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ts_sys_product` [ RunTime:0.007542s ]
+NOTIC: [2] Missing argument 1 for ProductModel::queryRecordAll(), called in E:\PHP\seo\Lib\Action\BaseAction.class.php on line 184 and defined E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 74 行.
+NOTIC: [8] Undefined variable: map E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 76 行.
+SQL: SELECT * FROM `ts_sys_product` LIMIT 0,10000   [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: id E:\PHP\seo\Lib\Action\BaseAction.class.php 第 216 行.
+NOTIC: [2048] Declaration of WorkorderModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 629 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder` [ RunTime:0.005738s ]
+NOTIC: [2048] Declaration of WorkorderReplyModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 208 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder_reply` [ RunTime:0.004711s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_biz_workorder` WHERE ( `touserid` = '237' ) AND ( `bizstatus` = '未处理' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT `id` FROM `ts_biz_workorder` WHERE ( `bizstatus` = '操作中' ) AND ( `status` = 1 ) AND ( (`touserid` = '237') OR (`createuserid` = '237') ) LIMIT 0,10000   [ RunTime:0.000251s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Missing argument 2 for WorkorderModel::myTransData(), called in E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php on line 88 and defined E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 173 行.
+NOTIC: [8] Undefined variable: productids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [8] Undefined variable: siteids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 300 行.
+NOTIC: [8] Undefined variable: type E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 318 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 600 行.
+NOTIC: [2048] Declaration of KeywordModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 2769 行.
+NOTIC: [2048] Declaration of KeywordModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 2769 行.
+SQL: SHOW COLUMNS FROM `ts_keyword` [ RunTime:0.003841s ]
+NOTIC: [8] Undefined index: keywords E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 308 行.
+NOTIC: [8] Undefined index: keyword E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 1365 行.
+NOTIC: [8] Undefined index: keyword E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 1376 行.
+NOTIC: [8] Undefined variable: return E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: tpl E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 349 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.430549s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001779s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page_title E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 6 行.
+NOTIC: [8] Undefined index: fileid E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 351 行.
+NOTIC: [2] Missing argument 2 for title_show(), called in E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php on line 365 and defined E:\PHP\seo\Common\common.php 第 263 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: product_name E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 537 行.
+NOTIC: [8] Undefined index: isrecommend E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 565 行.
+NOTIC: [8] Undefined index: isrecommend E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 596 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.432534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029827s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.462262s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.462607s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.462851s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.463053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.463388s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-12-14T00:13:23+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2018-12-14T00:13:29+08:00 ] 127.0.0.1 /Keyword/doAdd
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000399s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007048s ]
+NOTIC: [2048] Declaration of KeywordAction::index() should be compatible with that of BaseAction::index() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [2048] Declaration of KeywordAction::delete() should be compatible with that of BaseAction::delete() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [8] Undefined index: from E:\PHP\seo\Lib\Action\BaseAction.class.php 第 80 行.
+NOTIC: [8] Undefined index: href_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: request_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: open_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [2048] Declaration of UserModel::getLoginUserType() should be compatible with that of BaseModel::getloginUserType() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of ServerUserModel::selectOne() should be compatible with that of UserModel::selectOne() E:\PHP\seo\Lib\Model\User\ServerUserModel.class.php 第 12 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `ts_sys_user` [ RunTime:0.004540s ]
+NOTIC: [2048] Declaration of ProductModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ts_sys_product` [ RunTime:0.003444s ]
+NOTIC: [2] Missing argument 1 for ProductModel::queryRecordAll(), called in E:\PHP\seo\Lib\Action\BaseAction.class.php on line 184 and defined E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 74 行.
+NOTIC: [8] Undefined variable: map E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 76 行.
+SQL: SELECT * FROM `ts_sys_product` LIMIT 0,10000   [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index: id E:\PHP\seo\Lib\Action\BaseAction.class.php 第 216 行.
+NOTIC: [2048] Declaration of WorkorderModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 629 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder` [ RunTime:0.003599s ]
+NOTIC: [2048] Declaration of WorkorderReplyModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 208 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder_reply` [ RunTime:0.003601s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_biz_workorder` WHERE ( `touserid` = '237' ) AND ( `bizstatus` = '未处理' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT `id` FROM `ts_biz_workorder` WHERE ( `bizstatus` = '操作中' ) AND ( `status` = 1 ) AND ( (`touserid` = '237') OR (`createuserid` = '237') ) LIMIT 0,10000   [ RunTime:0.000309s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Missing argument 2 for WorkorderModel::myTransData(), called in E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php on line 88 and defined E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 173 行.
+NOTIC: [8] Undefined variable: productids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [8] Undefined variable: siteids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 300 行.
+NOTIC: [8] Undefined variable: type E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 318 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 600 行.
+NOTIC: [2048] Declaration of CartModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\CartModel.class.php 第 314 行.
+SQL: SHOW COLUMNS FROM `ts_cart` [ RunTime:0.004009s ]
+SQL: INSERT INTO `ts_cart` (`keyword`,`unit`,`unit2`,`createuserid`,`createusername`,`cartstatus`,`createtime`,`status`,`regtime`,`reguser`,`searchengine`,`price`,`initial_price`) VALUES ('扣扣','元','天',0,0,'待购买','2018-12-14 00:13:29',1,1544717609,0,'baidu','42','42'),('扣扣','元','天',0,0,'待购买','2018-12-14 00:13:29',1,1544717609,0,'baidu_mobile','45','45') [ RunTime:0.000282s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.071456s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parent E:\PHP\seo\Runtime\Cache\Service\b0092526fd16997b025a1f37dcb4345a.php 第 16 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.071979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003930s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.075928s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.076180s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.076418s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.076614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.076962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-12-14T00:13:34+08:00 ] 127.0.0.1 /Keyword/search?m=Keyword&a=search&g=Service&kws=%E6%89%A3%E6%89%A3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of KeywordAction::index() should be compatible with that of BaseAction::index() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [2048] Declaration of KeywordAction::delete() should be compatible with that of BaseAction::delete() E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 11 行.
+NOTIC: [8] Undefined index: from E:\PHP\seo\Lib\Action\BaseAction.class.php 第 80 行.
+NOTIC: [8] Undefined index: href_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: request_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [8] Undefined index: open_type E:\PHP\seo\Lib\Action\BaseAction.class.php 第 99 行.
+NOTIC: [2048] Declaration of UserModel::getLoginUserType() should be compatible with that of BaseModel::getloginUserType() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of UserModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 12 行.
+NOTIC: [2048] Declaration of ServerUserModel::selectOne() should be compatible with that of UserModel::selectOne() E:\PHP\seo\Lib\Model\User\ServerUserModel.class.php 第 12 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\User\UserModel.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `ts_sys_user` [ RunTime:0.003715s ]
+NOTIC: [2048] Declaration of ProductModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `ts_sys_product` [ RunTime:0.003364s ]
+NOTIC: [2] Missing argument 1 for ProductModel::queryRecordAll(), called in E:\PHP\seo\Lib\Action\BaseAction.class.php on line 184 and defined E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 74 行.
+NOTIC: [8] Undefined variable: map E:\PHP\seo\Lib\Model\Sys\ProductModel.class.php 第 76 行.
+SQL: SELECT * FROM `ts_sys_product` LIMIT 0,10000   [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: id E:\PHP\seo\Lib\Action\BaseAction.class.php 第 216 行.
+NOTIC: [2048] Declaration of WorkorderModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 629 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder` [ RunTime:0.003381s ]
+NOTIC: [2048] Declaration of WorkorderReplyModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 208 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array E:\PHP\seo\Lib\Model\Biz\WorkorderReplyModel.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `ts_biz_workorder_reply` [ RunTime:0.004157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_biz_workorder` WHERE ( `touserid` = '237' ) AND ( `bizstatus` = '未处理' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT `id` FROM `ts_biz_workorder` WHERE ( `bizstatus` = '操作中' ) AND ( `status` = 1 ) AND ( (`touserid` = '237') OR (`createuserid` = '237') ) LIMIT 0,10000   [ RunTime:0.000189s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Org\Util\ModelTools.class.php 第 827 行.
+NOTIC: [2] Missing argument 2 for WorkorderModel::myTransData(), called in E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php on line 88 and defined E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 173 行.
+NOTIC: [8] Undefined variable: productids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 283 行.
+NOTIC: [8] Undefined variable: siteids E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 292 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 300 行.
+NOTIC: [8] Undefined variable: type E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 318 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\PHP\seo\Lib\Model\Biz\WorkorderModel.class.php 第 600 行.
+NOTIC: [2048] Declaration of KeywordModel::insert() should be compatible with that of BaseModel::insert() E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 2769 行.
+NOTIC: [2048] Declaration of KeywordModel::selectOne() should be compatible with that of BaseModel::selectOne() E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 2769 行.
+SQL: SHOW COLUMNS FROM `ts_keyword` [ RunTime:0.003627s ]
+NOTIC: [8] Undefined index: keywords E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 308 行.
+NOTIC: [8] Undefined index: keyword E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 1365 行.
+NOTIC: [8] Undefined index: keyword E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 1376 行.
+NOTIC: [8] Undefined variable: return E:\PHP\seo\Lib\Model\Biz\KeywordModel.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: tpl E:\PHP\seo\Lib\Action\Service\KeywordAction.class.php 第 349 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-4.405181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003499s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page_title E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 6 行.
+NOTIC: [8] Undefined index: fileid E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 351 行.
+NOTIC: [2] Missing argument 2 for title_show(), called in E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php on line 365 and defined E:\PHP\seo\Common\common.php 第 263 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: module_name_arra E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 381 行.
+NOTIC: [8] Undefined index: product_name E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 537 行.
+NOTIC: [8] Undefined index: isrecommend E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 565 行.
+NOTIC: [8] Undefined index: isrecommend E:\PHP\seo\Runtime\Cache\Service\0cb1dbab39543612256379b77616aead.php 第 596 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-4.408786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025840s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-4.434589s ]
+INFO: Run TokenBuild Behavior [ RunTime:-4.435001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-4.435301s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-4.435542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001328s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-4.435952s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-12-14T00:13:35+08:00 ] ERR: (ThinkException) 无法加载模块:Public

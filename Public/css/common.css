@@ -1,0 +1,200 @@
+/*������ʽ������ҳ�湲����ʽ*/
+/*css reset*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+td{
+	vertical-align: middle !important;	
+}
+td input[type="checkbox"]{
+	vertical-align: top !important;	
+}
+body {
+    line-height:1;
+}
+
+:focus {
+    outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    /*border-collapse:collapse;*/
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*base css*/
+/*�������*/
+body,input,select,textarea{
+    font: 14px/1.5 "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+img{
+    vertical-align: bottom
+}
+
+/*header*/
+
+/*/header*/
+
+
+.wrapper{
+    width:1300px;
+    margin:0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+}
+
+
+
+
+.main_title{
+    font-size:34px!important;
+    color: #000;
+}
+.sub_title{
+    font-size:14px!important;
+    color: #767676;
+}
+.mark{
+    color: #fe9625;
+}
+/* 徽章显示样式 */
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #EC382D;
+    border-radius: 10px;
+    margin-top: -15px;
+}
+
+.show_badge {
+	position: relative;
+	left: -1px;
+	top: -1px;
+	/* border: none !important; */
+}
+.show_badge:after {
+	content: '';
+	display: block;
+	width: 30px;
+	height: 30px;
+	background:url("../img/new.png")left top no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#ui-content .value{margin-top:11px;}
+#ui-content .symbol{color:#fff;}
+
+.ui-header-logo img{float:left;}

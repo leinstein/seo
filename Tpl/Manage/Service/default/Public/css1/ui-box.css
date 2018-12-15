@@ -1,0 +1,77 @@
+/*=== 无边框box样式 用于一些分段显示表单的情况 begin ===*/
+.ui-box-section{
+	border: none;
+}
+.ui-box-section .ui-box-head{
+	height:20px;
+}
+.ui-box-section .ui-box-head-title{
+	font-size:14px;
+	color:rgb(79,129,189);
+	font-weight:normal;
+}
+.ui-box-section .ui-box-container{
+	border:none;
+}
+.ui-box-section .ui-box-content{
+	padding:8px 0 8px 8px;
+}
+/*=== 无边框无头部box样式 end ===*/
+
+/*=== 表格顶部带边框的box样式 ===*/
+.ui-box-queryresult{
+	margin-top:15px;
+}
+.ui-box-queryresult-follow{
+	margin-top:0;
+}
+.ui-box-queryresult .ui-box-head{
+	background: #F6F6F6;
+}
+.ui-box-queryresult .ui-box-head-text{
+	margin:0;
+}
+.ui-box-queryresult .ui-padding-right{
+	color: gray;
+	margin-top: 7px;
+	padding: 0;
+	zoom: 1;
+	font-size: 12px;
+	vertical-align: middle;
+	float:right;
+}
+
+/*=== 只有左边边框的box样式 ===*/
+.ui-box-liftborder{
+	padding:0 5px;
+	border:none;
+	border-left:1px solid #ccc;
+}
+.ui-box-liftborder .ui-box-container{
+	border:none;
+}
+.ui-grid-5-nopadding{
+	margin-right:0;
+}
+
+
+/*分类框 用于一些分类列表*/
+.ui-box-category{ 
+	padding:5px 0 3px 0; 
+	border-bottom:1px solid #eee; 
+}
+.ui-box-category:after{
+	clear: both; 
+	content: " "; 
+	display: block; 
+	font-size: 0; 
+	height: 0; 
+	visibility: hidden; 
+}
+.ui-box-category-caption{ 
+	font-weight:700; 
+	line-height:22px;
+}
+.ui-box-category a{ 
+	margin: 0 15px 4px 0;
+}

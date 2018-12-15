@@ -1,0 +1,6 @@
+[2016/10/24 11:53:00] MSG - Get New AccessToken Success.
+[2016/10/24 11:53:48] MSG - Get New AccessToken Success.
+[2016/10/24 12:45:53] ERR - Run getOauthUserinfo Faild. access_token missing, hints: [ req_id: uGCnUa0353ns88 ][41001]
+[2016/10/24 12:45:53] MSG - Reset Auth And Remove Old AccessToken.
+[2016/10/24 12:45:53] MSG - Retry Run getOauthUserinfo ...
+[2016/10/24 17:31:28] MSG - Get New AccessToken Success.

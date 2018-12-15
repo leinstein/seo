@@ -1,0 +1,215 @@
+@CHARSET "UTF-8";
+/* ================ 列表风格 ======================*/
+@-webkit-keyframes  shineColor {  
+from { -webkit-box-shadow: 0 0 3px #bbb; }  
+50% { -webkit-box-shadow: 0 0 8px #888; }  
+to { -webkit-box-shadow: 0 0 3px #bbb; }  
+}
+
+/*详细信息列表模式*/
+.ui-listdetail  .ui-list-item-link{
+	width: 100%;
+}
+.ui-listdetail  i{
+	font-size: 42px;
+	line-height:67px;
+}
+.ui-listdetail  .ui-list-item-link{
+	width: 96%;
+}
+.ui-listdetail  .ui-item-icon{
+	margin-right: 5px;
+}
+.ui-listdetail  .ui-item-content{
+	width: 88%;
+	line-height:22px;
+}
+.ui-listdetail  .ui-item-content p{
+	width: 99%;
+	max-width: 99%;  /*IE不能解释该属性，而FF可以*/
+	line-height:22px;
+	display:block;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+
+/* 项目列表 */
+.ui-project-list{
+	margin:5px 0;
+}
+/* 单个项目 */
+.ui-project-list .ui-project-item{
+	margin:10px 0;
+	border:1px solid #EBEBEB;
+}
+.ui-project-list .hover{
+	margin:10px 0;
+	border:1px solid #888;
+	-webkit-animation-name: shineColor;   
+	-webkit-animation-duration: 3s;  
+	-webkit-animation-iteration-count: infinite;   
+}
+/* 单个项目 - 头部 */
+.ui-project-item .ui-project-head{
+	background-color:#F4F4F4;
+	line-height:28px;
+	padding:2px 4px 2px 7px;
+}
+.ui-project-item .ui-project-head label{
+	padding:2px 1px 2px 6px;
+}
+.ui-project-item .ui-project-head span{
+	padding:2px 6px 2px 1px;
+}
+/* 单个项目 - 内容 */
+.ui-project-item .ui-project-container{
+	padding:3px;
+}
+.ui-project-item .ui-project-container .ui-table{
+	font-size:13px;	
+}
+.ui-project-item .ui-table td.item1,.ui-project-item .ui-table td.item2{
+	border-right:1px solid #EBEBEB;
+}
+.ui-project-item .ui-project-container .ui-table h2{
+	font-size:14px;
+	line-height:28px;
+}
+.ui-project-item .ui-project-container .ui-table p{
+	font-size:13px;
+	line-height:22px;
+	color:#666;
+}
+
+/*查询域主风格*/
+.ui-list-query{
+	list-style:none;
+	padding:0;
+	margin:0;
+	border-bottom: 1px solid #ccc;
+}
+/*查询域行*/
+.ui-list-query .ui-list-item{
+	font-size:14px;
+	position: relative;
+	border-bottom: 1px dashed #DEDEDE;
+}
+.ui-list-query .ui-list-item a{
+	font-size:13px;
+}
+/*查询域行头, 主题, 尾部*/
+.ui-list-query .ui-list-item .ui-list-item-head{
+	position: absolute;
+	margin-left: 19px;
+	margin-top: 8px;
+	color: rgb(51,51,51);
+}
+.ui-list-query .ui-list-item .ui-list-item-body{
+	height: 36px;
+	overflow: hidden;
+	padding: 0 52px  0 166px;
+}
+.ui-list-query .ui-list-item .ui-list-item-tail{
+	position: absolute;
+	right: 19px;
+	top: 8px;
+}
+.ui-list-query .ui-list-item .ui-list-item-body{
+	height: 36px;
+	overflow: hidden;
+	padding: 0 52px  0 166px;
+}
+.ui-list-query .ui-list-item .ui-list-item-tail{
+	position: absolute;
+	margin-right: 19px;
+	margin-top: 3px;
+}
+/*查询域参数外框边距*/
+.ui-list-query .ui-list-item-query-padding{
+	padding: 6px 0; 
+}
+/*查询域查询参数*/
+.ui-list-query .ui-list-query-item{
+	padding:2px 0;
+	margin: 0 20px 8px 0;
+	max-width: 150px;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*查询域的最后一行，去掉下面的虚线*/
+.ui-list-query .lastline{
+	border-bottom: none;
+}
+/*选中的查询参数*/
+.ui-list-query .selected{
+	padding:2px 8px;
+	background:#638BFF;
+	color:#fff;
+	font-weight:bold;
+}
+/*多选按钮*/
+.ui-list-query  .multi-btn{
+	position: absolute;
+	border: 1px solid #DAD9D9;
+	line-height: 15px;
+	text-decoration: none;
+	padding: 3px 4px;
+	display: block;
+	right: 10px;
+	width: 30px;
+	vertical-align: middle;
+}
+/*查询域的最后一行，去掉下面的虚线*/
+.ui-list-query .query-label{
+	color:rgb(51,51,51);
+	margin:0 4px 0 6px;
+}
+/*两行高度*/
+.ui-list-query  .ui-list-item div.item-2-line{
+	height:68px;
+}
+/*查询域参数容器*/
+.ui-list-query .ui-list-item-query-container{
+	padding:4px 15px;
+}
+/*无边框list样式*/
+.ui-list-none{
+	border: none;
+}
+/*=== 查询域列表样式 end ===*/
+
+/* 中间对齐的列表 begin*/
+.ui-dlist-detail{
+	line-height:3.2;
+	color:rgb(51,51,51);
+	font-size:14px;
+}
+.ui-dlist-detail .ui-dlist-tit{
+	width: 13%;
+}
+.ui-dlist-detail .ui-dlist-det{
+	margin-left:20px;
+}
+/* 中间对齐的列表 end*/
+
+/* 温馨提示面板列表样式 begin*/
+.ui-list-prompt{
+	list-style:disc inside;
+	padding:0 10px 10px 10px;
+}
+.ui-list-prompt .ui-list-item{
+	font-size:13px;
+	color: rgb(55,96,146);
+}
+/* 温馨提示面板列表样式 end*/
+
+/*分类列表*/
+.ui-list-category .ui-list-item{
+	line-height:26px;
+	display: inline-block;
+	padding-right:30px;
+	border:none;
+}

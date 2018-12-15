@@ -1,0 +1,32 @@
+/* ================  社区首页正文风格  begin  =============================================*/
+/*头部风格*/
+
+.community-header{
+    position: relative;
+    background:#0070C0 url('../../../../../../Public/img/mobile/banner.png') no-repeat center;
+    background-size: 100% 100%;
+
+}
+.community-header .page__title{
+	color:#fff;
+}
+.community-header .page__desc{
+		color:#fff;
+}
+
+/*主体风格*/
+.community-body .weui-media-box {
+	padding: 20px 15px;
+}
+.community-body .weui-media-box__title {
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.community-body .weui-media-box__desc {
+    color: #999;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    -webkit-line-clamp: 3;
+}
+
+/* ================  社区首页正文风格  end  =============================================*/

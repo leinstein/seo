@@ -1,0 +1,478 @@
+@CHARSET "UTF-8";
+/*============================ 统计分析 模块专用样式 =============================*/
+
+.ui-box-head .ui-box-head-more-img{
+    float: right;
+
+    margin-top: -5px;
+}
+/*==== 图表界面样式 ===== */
+
+/*首页图表样式*/
+.statistics-index{
+	width: 477px;
+	float: left;
+	margin:10px 0 10px 10px;
+	
+}
+
+.statistics-detail{
+	border: none;
+}
+
+.statistics-index .ui-box-container{
+	/*height: 450px;;*/
+	
+}
+/*统计图表样式*/
+
+.statistics-chart{
+	margin-top: 10px;
+	width: 100%;
+	text-align: center !important;
+}
+.statistics-chart .prompt-box{
+	height: 40px;
+	text-align: left;
+	padding: 15px;
+	
+	/*border: 2px dotted red; 
+	margin: 0 10px;*/
+	color: #333;
+}
+.statistics-chart .statistics-title{
+	height: 30px;
+	text-align: center;
+	margin: 0 auto;
+	width: auto;
+	font-size: 18px;
+	background: #f4f4f4;
+	padding: 5px 10px;
+	margin:10px 20px;
+	margin-bottom: 20px;
+}
+
+
+/*预算执行情况图表样式*/
+.statistics-chart .budgetexec-chart{
+	height: 284px;
+	color: #5f5f5f;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.statistics-chart .budgetexec-chart tr{
+	margin: 0 auto;
+	color: #5f5f5f;
+	text-align: center;
+}
+.statistics-chart .budgetexec-chart tr .color{
+	background: #6c6cce;
+}
+/* 
+.statistics-chart .budgetexec-chart tr .color1{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart tr .color2{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart tr .color3{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart tr .color4{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart tr .color5{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart tr .color6{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart tr .color7{
+	background: #ff9900;
+}
+*/
+.statistics-chart .budgetexec-chart tr .color-fact{
+	background: #ff9900;
+} 
+
+.statistics-chart .budgetexec-chart tr{
+	margin: 0;
+	padding: 0;
+
+}
+
+.statistics-chart .budgetexec-chart tr td.nodename{
+	width: 135px;
+	text-align: right;
+	padding-right: 5px;
+	
+}
+
+.statistics-chart .budgetexec-chart tr td.color-block{
+	border-left:solid 1px #739cc3 ; 
+	width: 200px;
+	text-align: left;
+}
+
+.statistics-chart .budgetexec-chart tr td.color-block span{
+	height: 24px;
+	line-height:24px;
+	width: 160px;
+	padding: 0;
+	margin:0;
+	float: left;
+	
+}
+.statistics-chart .budgetexec-chart tr td.desc{
+	padding-left: 5px;
+}
+
+.statistics-chart .budgetexec-chart tr td.w1{
+	width: 42px;
+	text-align: right;
+	padding-left:5px; 
+}
+
+.statistics-chart .budgetexec-chart tr td.w2{
+	width: 5px;
+	text-align: right;
+	
+}
+
+.statistics-chart .budgetexec-chart tr td.w3{
+	width: 44px;
+	text-align: left; 
+}
+.statistics-chart .budgetexec-chart tr td.w4{
+	width: 30px;
+	text-align: left;
+}
+
+/* .statistics-chart .budgetexec-chart tr td.desc span.w1{
+	width: 51px;
+	text-align: right;
+	height: 28px;
+	line-height:28px;
+}
+
+.statistics-chart .budgetexec-chart tr td.desc span.w2{
+	width: 5px;
+	text-align: right;
+	height: 28px;
+	line-height:28px;
+	
+}
+
+.statistics-chart .budgetexec-chart tr td.desc span.w3{
+	width: 51px;
+	text-align: left; 
+	height: 28px;
+	line-height:28px;
+	margin-left: -2px;
+}
+.statistics-chart .budgetexec-chart tr td.desc span.w4{
+	width: 42px;
+	text-align: right;
+	height: 28px;
+	line-height:28px;
+	margin-left: -2px;
+} */
+
+.statistics-chart .budgetexec-chart tr td.desc span.desc{
+	height: 30px;
+	line-height:40px;
+	display:inline-block;
+	width: 100px;
+	float: right;
+}
+
+.statistics-chart .budgetexec-chart .nodata{
+	
+ height: auto;
+ font-size: 16px;
+ height:200px;	
+ line-height:200px;
+}
+
+
+/* /*预算执行情况图表样式*/
+/*.statistics-chart .budgetexec-chart{
+	height: 284px;
+	color: #5f5f5f;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.statistics-chart .budgetexec-chart li{
+	margin: 0 auto;
+	
+	color: #5f5f5f;
+	text-align: center;
+}
+
+.statistics-chart .budgetexec-chart li .color{
+	background: #6c6cce;
+}
+.statistics-chart .budgetexec-chart li .color1{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart li .color2{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart li .color3{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart li .color4{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart li .color5{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart li .color6{
+	background: #ff9900;
+}
+.statistics-chart .budgetexec-chart li .color7{
+	background: #ff9900;
+}
+
+.statistics-chart .budgetexec-chart li .color-fact{
+	background: #ff9900;
+}
+
+.statistics-chart .budgetexec-chart li{
+	margin: 0;
+	padding: 0;
+	height: 28px;
+}
+
+.statistics-chart .budgetexec-chart li span{
+	display: inline-block;
+}
+.statistics-chart .budgetexec-chart li span.nodename{
+	height: 28px;
+	line-height:35px;
+	width: 135px;
+	text-align: right;
+	float: left;
+	margin-left: 10px;
+	
+}
+
+.statistics-chart .budgetexec-chart li span.color-block{
+	height: 25px;
+	border-left:solid 1px #739cc3 ; 
+	padding: 5px 0;
+	width: 200px;
+	text-align: left;
+}
+
+.statistics-chart .budgetexec-chart li span.color-block span{
+	height: 25px;
+	line-height:25px;
+	width: 160px;
+	padding: 0;
+	margin:0;
+	float: left;
+	
+}
+
+.statistics-chart .budgetexec-chart li span.w1{
+	width: 51px;
+	text-align: right;
+	height: 28px;
+	line-height:28px;
+	margin-left: -2px;
+}
+
+.statistics-chart .budgetexec-chart li span.w2{
+	width: 5px;
+	text-align: right;
+	height: 28px;
+	line-height:28px;
+	margin-left: -2px;
+	
+}
+
+.statistics-chart .budgetexec-chart li span.w3{
+	width: 51px;
+	text-align: left; 
+	height: 28px;
+	line-height:28px;
+	margin-left: -2px;
+}
+
+.statistics-chart .budgetexec-chart li span.w4{
+	width: 42px;
+	text-align: right;
+	height: 28px;
+	line-height:28px;
+	margin-left: -2px;
+}
+
+.statistics-chart .budgetexec-chart li span.desc{
+	height: 30px;
+	line-height:40px;
+	display:inline-block;
+	width: 100px;
+	float: right;
+}
+
+.statistics-chart .budgetexec-chart .nodata{
+	
+ height: auto;
+ font-size: 16px;
+ height:200px;	
+ line-height:200px;
+} */
+/*首页饼状图区域的样式*/
+.statistics-chart  .pie-index{
+	width: 250px;float: left;
+}
+/*首页饼状图色块区域的样式*/
+.statistics-chart  .color-block-index{
+	border: 0; 
+	width: 225px;
+	height:240px;; 
+	float: left;
+	position: relative;
+}
+.statistics-chart  .color-block-index table {
+	border: 0;
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+}
+.statistics-chart  .color-block-index table tr .color{
+	width: 8px;
+	height: 8px; 
+	font-size: 8px;
+}
+
+/*首页饼状图区域的样式*/
+.statistics-chart  .pie-detail{
+	width: 600px;
+	float: left;
+}
+/*首页饼状图色块区域的样式*/
+.statistics-chart  .color-block-detail{
+	
+	width: 360px;
+	height:280px;; 
+	float: left;
+	position: relative;
+}
+.statistics-chart  .color-block-detail table {
+	border: 0;
+	position: absolute;
+	bottom: 20px;
+	font-size: 13px;	
+	left: 10px;
+}
+
+.statistics-chart  .color-block-detail table tr .color{
+	width: 10px;
+	height: 10px; 
+	font-size: 10px;
+}
+
+
+
+.mt0{
+	margin-top: 0 !important;
+}
+
+.ui-box-cs {
+    border: 1px solid #ccc;
+    zoom: 1;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.ui-box-cs:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+.ui-box-cs-head {
+    position: relative;
+    padding: 10px;
+    height: 70px;
+    line-height: 60px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f9f9f9));
+    background: -moz-linear-gradient(top, #fcfcfc, #f9f9f9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f9f9f9');
+    background: -o-linear-gradient(top, #fcfcfc, #f9f9f9);
+    background: linear-gradient(top, #fcfcfc, #f9f9f9);
+    zoom: 1;
+    position: relative;
+}
+
+.ui-box-cs-head span.font-style{
+	position: absolute;
+	left:27px;
+	font-size: 12px;
+	color: #fefefe;
+	font-family: serif;	
+	
+}
+
+.ui-box-cs-head span.top{
+	top:20px;
+}
+.ui-box-cs-head span.bottom{
+	
+	top:33px;
+		
+}
+
+.ui-box-cs-head .ui-box-cs-head-text{
+	margin-left: 10px;
+    color: #808080;
+	position:absolute;
+	top:40px;
+	left:75px;
+    display: block;
+}
+.ui-box-cs-head img{
+	position: absolute;
+	top: -5px; 
+	left: 10px;
+	
+}
+.ui-box-cs-head .ui-box-cs-head-title {
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+}
+.ui-box-cs-head_bottom {
+    border-bottom: 0px solid #ccc;
+    position: relative;
+    padding: 10px;
+    height: 20px;
+    line-height: 20px;
+    background: #f6f6f6;
+    zoom: 1;
+}
+.ui-box-cs-head_bottom .ui-box-cs-head-title {
+    color: #3366ff;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}

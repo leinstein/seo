@@ -1,0 +1,108 @@
+/**
+ +------------------------------------------------------------------------------
+ * 移动端通用样式
+ +------------------------------------------------------------------------------
+ * @author    Richer <yangzi1028@163.com>
+ * @version   2017年08月03日 11:37:20
+ +------------------------------------------------------------------------------
+ */
+ 
+ /* 頭部样式 begin ======================>*/
+body, html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background: #f2f2f2;
+}
+
+
+.weui-grid {
+   width: 50%;
+   background: #f2f2f2;
+   padding: 5px;
+}
+.weui-grid  .panel{
+	background: #fff;
+	  /* height: 80px; */
+}
+.weui-grid:before {
+    border-right: none; 
+}
+
+.weui-grid:after {
+    border-bottom: none
+}
+.weui-grid__icon {
+    width: 40%;
+    padding: 2em 0;
+    border-radius: 4px 0px 0px 4px;
+    display: inline-block;
+    text-align: center;
+   	background: #fff;
+   	float: left;
+}
+
+
+.weui-grid__icon + .weui-grid__label {
+    margin-top: 1.5em; 
+}
+
+.weui-grid__icon .iconfont {
+	/*font-size: 1.5em;*/
+	font-size:28px;
+	color: #fff;
+}
+
+.weui-grid__label {
+    width: 58%;
+    text-align: center;
+    float: right;
+    margin-top: 1em;
+    color: #5e87b0;
+    background: #fff;
+}
+
+.weui-grid__label div:first-child{ 
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+.demos-title {
+  text-align: center;
+  font-size: 34px;
+  color: #3cc51f;
+  font-weight: 400;
+  margin: 0 15%;
+}
+
+.demos-sub-title {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+
+.demos-header {
+  padding: 35px 0;
+}
+
+.demos-content-padded {
+  padding: 15px;
+}
+
+.demos-second-title {
+  text-align: center;
+  font-size: 24px;
+  color: #3cc51f;
+  font-weight: 400;
+  margin: 0 15%;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+footer a {
+  color: #999;
+  text-decoration: none;
+}

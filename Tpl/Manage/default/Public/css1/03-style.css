@@ -1,0 +1,217 @@
+@CHARSET "UTF-8";
+/* ==== 各种通用风格 ==============*/
+/* 基础风格 */
+a { 
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* 基本网页宽度 */
+.wrapper {
+	width: 990px;
+	margin: 0 auto;
+}
+/* 选中风格 */
+.selected{
+	font-weight:bold;
+}
+/* box背景效果*/
+.shadow{
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+/*主logo*/
+.main-logo{
+	clear:both;
+	margin-top:10px;
+	height:46px;
+	width:366px;
+	background:url('../img/main-logo.png');
+}
+/*顶部菜单*/
+.ui-top-nav{
+	height:20px;
+	line-height:18px;
+	font-size:12px;
+	padding:4px 6px;;
+	border-bottom:1px solid #bbb;
+	background:
+}
+.ui-top-nav .nav-right-links{
+	float:right;
+}
+
+/* ======= 无边框通用风格 ======= */
+.ui-noborder-bg {
+    border:none;
+    background:none;
+}
+
+/* ==== box风格给顶部加蓝色线 ==== */
+.ui-box-top{
+	border-top:2px blue solid;
+}
+
+/* ==== 菜单下面的导航栏 ======== */
+.ui-page-title{
+	color: #656565;
+	font-size:13px; 
+	padding:5px;
+}
+
+/* ==== 列表风格 ============ */
+/* 列表选中项 */
+.ui-list .selected{
+	color:#333;
+}
+/*分段列表*/
+.sections { padding:5px; background-color: #FFF;}
+.sections .section{ padding:0 0 5px 0; border-bottom:1px solid #eee; }
+.sections .section:after{clear: both; content: " "; display: block; font-size: 0; height: 0; visibility: hidden; }
+.sections .section .caption{ font-weight:700; line-height:22px;}
+.sections .section .item{ line-height:20px; } 
+.sections .section a{ margin: 0 15px 4px 0;}
+.sections .last{ border-bottom:none; }
+
+/* ==== 查询域风格 ============ */
+
+/*查询域主风格*/
+.ui-list-query{
+	list-style:none;
+	padding:0;
+}
+/*查询域行*/
+.ui-list-query .ui-list-item{
+	border-bottom: 1px dashed #DEDEDE;
+	position: relative;
+	font-size:12px;
+}
+/*查询域行头, 主题, 尾部*/
+.ui-list-query .ui-list-item .ui-list-item-head{
+	position: absolute;
+	left: 19px;
+	top: 8px;
+	color: #666;
+}
+.ui-list-query .ui-list-item .ui-list-item-body{
+	height: 36px;
+	overflow: hidden;
+	padding: 0 52px  0 166px;
+}
+.ui-list-query .ui-list-item .ui-list-item-tail{
+	position: absolute;
+	right: 19px;
+	top: 8px;
+}
+/*查询域参数外框*/
+.ui-list-query .param-cont{
+	padding: 6px 0; 
+}
+/*查询域查询参数*/
+.ui-list-query .item-param{
+	padding:2px 0;
+	margin: 0 15px 8px 0;
+	max-width: 150px;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*查询域的最后一行，去掉下面的虚线*/
+.ui-list-query .last{
+	border-bottom: none;
+}
+/*选中的查询参数*/
+.ui-list-query .selected{
+	padding:2px 8px;
+	background:#638BFF;
+	color:#fff;
+	font-weight:bold;
+}
+/*多选按钮*/
+.ui-list-query  .multi-btn{
+	position: absolute;
+	border: 1px solid #DAD9D9;
+	line-height: 15px;
+	text-decoration: none;
+	padding: 0 3px;
+	display: block;
+	right: 10px;
+	width: 24px;
+}
+/*查询域的最后一行，去掉下面的虚线*/
+.ui-list-query .param-label{
+	color:#666;
+	margin:0 4px 0 6px;
+}
+/*两行高度*/
+.ui-list-query  .ui-list-item div.item-2-line{
+	height:68px;
+}
+/*查询域参数容器*/
+.ui-list-query .param-container{
+	padding:4px 15px;
+	*padding:4px 0;
+}
+
+/* ======= 文本框 ============ */
+/*小文本框*/
+.ui-input-small {
+	padding: 2px 3px;
+    border: 1px solid #c1c1c1;
+    color: #595959;
+    font-size: 12px;
+    width:80px;
+}
+
+/* ==== banner ==============*/
+/*左边文字，右边按钮banner*/
+.ui-banner{
+	position: relative;
+	padding: 8px;
+	height: 16px;
+	line-height: 16px;
+	zoom: 1;
+}
+.ui-banner .ui-banner-text{
+	margin-left: 6px;
+	color: #666;
+	float: left;
+}
+.ui-banner .ui-banner-tools{
+	float: right;
+}
+
+/*=======选择框  =========== */
+/*多项选择框*/
+.select-bar{
+	display:none;
+	position:absolute; border: 1px solid #999;background-color: #FFF;
+	padding:5px;width:640px; top:32px;left:160px;
+	z-index:9999; 
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+}
+.select-bar-dialog{ position:relative; }
+.select-bar-dialog .btn-close{ position:absolute; right:10px; top: 2px; font-size:14px; font-weight:bold;}
+.select-bar .item{ float: left; padding: 0 9px; cursor: pointer; line-height: 24px;	color: #6D6D6D; }
+
+/*=======按钮风格 ===========*/
+/*可以补充到任何按钮后面缩小按钮，神奇的变为特小按钮*/
+.ui-button-vs{
+	line-height:18px;
+    height:20px;
+    padding:0 8px;
+    font-size:12px;
+}
+
+/*=======专用风格 ===========*/
+/*问题反馈浮动框*/
+#system-support{width:42px; height:119px; background:url('../img/icon-systemsupport.png') no-repeat}

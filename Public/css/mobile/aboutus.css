@@ -1,0 +1,97 @@
+@charset "utf-8";
+/**
+ +------------------------------------------------------------------------------
+ * 移动端关于我们样式 
+ +------------------------------------------------------------------------------
+ * @author    Richer <yangzi1028@163.com>
+ * @version   2017年08月03日 11:37:20
+ +------------------------------------------------------------------------------
+ */
+
+/* 用户中心样式 begin ======================>*/
+.banner img {
+    width: 100%;
+}
+.head_top {
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.head_top div {
+    display: inline-block;
+    padding: 0 80px;
+    border-bottom: 2px solid #00B6FF;
+    padding-bottom: 10px;
+}
+.head_top p {
+    color: #a6a6a6;
+    font-size: 16px;
+    padding-top: 3px;
+}
+.who_bottom{
+	padding: 10px;
+}
+.who_bottom .left {
+    float: left;
+    width: 30%
+}
+.who_bottom .left img{
+   width: 100%
+}
+.who_bottom .right {
+    width: 68%;
+    float: right;
+    font-size: 16px;
+    color: #6A6A6A;
+    letter-spacing: 1px;
+    line-height: 170%;
+}
+.head_top h1 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.who_bottom .right h2 {
+    color: #00B6FF;
+    font-size: 18px;
+    font-weight: normal;
+}
+.what .what_li li {
+    width: 29%;
+    /* height: 460px; */
+    background: #fff;
+    margin-left: 4%;
+    float: left;
+    text-align: center;
+}
+
+.what .what_li li img{
+    width: 100%;
+}
+
+.what .what_li div {
+    text-align: left;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.what .what_li div h3 {
+    font-weight: normal;
+    font-size: 18px;
+}
+.what .what_li div p {
+    font-size: 16px;
+    color: #6A6A6A;
+    line-height: 160%;
+    margin-top: 10px;
+}
+.what .bottom {
+    text-align: center;
+    padding: 10px;
+}
+.what .bottom p:nth-child(1) {
+    margin-top: 60px;
+    color: #6A6A6A;
+    font-size: 18px;
+}
+/* 我的业务九宫格 end ======================>*/

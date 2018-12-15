@@ -1,0 +1,281 @@
+@CHARSET "UTF-8";
+/* ================ 面板风格======================*/
+
+/* panel基础样式模块 */
+.ui-panel {
+    border: 1px solid #ccc;
+    zoom: 1;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.ui-panel:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.ui-panel-follow /*--使用在panel和上面的panel相连的情况下 --*/ {
+    border-top: none;
+}
+.ui-panel-head {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding: 10px;
+    height: 16px;
+    line-height: 16px;
+    background:#fff;
+    zoom: 1;
+}
+.ui-panel-head .ui-panel-head-title {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.ui-panel-head .ui-panel-head-more {
+    float: right;
+}
+.ui-panel-head .ui-panel-head-text {
+    margin-left: 10px;
+    color: #808080;
+    float: left;
+}
+.ui-panel-container {
+    background: #fff;
+}
+.ui-panel-content /* 可选，用于默认有内边距的panel */ {
+    padding: 8px;
+}
+/*面板的布局*/
+.ui-panel-left{
+	width:15%;
+	float:left;
+	padding:20px 0 20px 0;
+}
+.ui-panel-main{
+	width:81%;
+	float:left;
+	padding:0 10px 0 10px;
+	margin:5px 0 10px 0;
+	border-left:1px solid #eee;
+}
+
+/*彩色面板*/
+.ui-panel-gray{
+	background: #F6F6F6;
+}
+.ui-panel-lightblue{
+	background: rgb(218,229,241);
+}
+
+/* 竖向菜单面板 */
+.ui-menu-panel.ui-panel-head{
+	border-bottom:none;
+	padding-top:14px;
+}
+.ui-menu-panel.ui-panel-head .ui-panelhead-title{
+	font-size:17px;
+	font-weight:normal;
+}
+.ui-menu-panel.ui-panel-head .ui-panelhead-text{
+	font-size:10px;
+}
+
+/*业务面板，所有功能的主要界面 */
+.ui-biz-panel{
+	background-color:#FFFFFF;
+	padding:0 10px 30px 10px;
+	border: none;
+	font-size:13px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	border-radius: 2px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.ui-biz-panel:hover{
+    box-shadow:0 2px 3px rgba(0, 0, 0, 0.1);/*opera或ie9*/ 
+}
+.ui-biz-panel .ui-panel-head{
+	height:27px;
+	line-height:29px;
+	padding-left:0;
+}
+.ui-biz-panel .ui-panel-head-title{
+	font-size:17px;
+	font-weight:normal;
+}
+.ui-biz-panel .ui-panel-head .ui-panel-head-title .icon{
+	margin-right:1px;
+}
+
+/*左侧菜单面板 */
+.ui-menu-panel{
+	background-color:#FFFFFF;
+	padding:0 5px 0 5px;
+	border: none;
+	font-size:13px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	border-radius: 2px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.ui-menu-panel:hover{
+    box-shadow:0 2px 3px rgba(0, 0, 0, 0.1);/*opera或ie9*/ 
+}
+.ui-menu-panel .ui-panel-head{
+	border-bottom:none;
+}
+
+/*首页通知面板 */
+.ui-notice-panel{
+	background-color:#FFFFFF;
+	padding:0 5px 0 5px;	
+	border: none;
+	font-size:13px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	border-radius: 2px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.ui-notice-panel:hover{
+    box-shadow:0 2px 3px rgba(0, 0, 0, 0.1);/*opera或ie9*/ 
+}
+
+/* 搜索面板 */
+.ui-search-panel{
+}
+/* 搜索面板 - 标题栏 */
+.ui-search-panel .ui-search-head {
+    position: relative;
+    line-height:34px;
+}
+.ui-search-panel .ui-search-head:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+/* 搜索面板 - 标题 */
+.ui-search-panel .ui-head-title{
+	font-size:15px;
+	line-height:34px;
+	font-weight:bold;
+	color:#0089dc;
+	padding:0 6px 8px 4px;
+	float: left;
+	display: inline;
+	margin: 0;
+}
+/* 搜索面板 - 搜索框 */
+.ui-search-panel .ui-text-search{
+	padding: 3px 5px;
+	line-height: 18px;
+	border: 1px solid #c1c1c1;
+	color: #595959;
+	font-size: 13px;
+	width:90px;
+}
+/* 搜索面板 - 内容 */
+.ui-search-context{
+	padding:8px;
+}
+/* 搜索面板 - 条件 */
+.ui-search-condition td{
+	 padding: 4px 5px 4px;
+}
+
+/* 搜索结果面板 */
+.ui-result .ui-result-head{
+	line-height:32px;
+	font-size:14px;
+	color:#666;
+	background-color:#f5f5f5;
+	border: 1px solid #e8e8e8;
+}
+
+/* 查询结果数据展现 */
+.ui-result-data{
+	
+}
+
+/*批量操作栏*/
+.ui-result-batchbanner{
+	padding:6px 2px 0 8px;
+	line-height:22px;
+}
+.ui-result-batchbanner label{
+	padding:0 12px 0 5px;
+}
+
+/*温馨提示面板，淡蓝色背景*/
+.ui-panel-hint{
+	margin-top:10px;
+	border:none;
+	border-left: 2px solid rgb(79,129,189);
+	background: rgb(218,229,241);
+}
+.ui-panel-hint .ui-panel-head{
+	padding-left:10px;
+	border-bottom:none;
+	background: none;
+}
+.ui-panel-hint .ui-panel-head-title{
+	color: rgb(55,96,146);
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.ui-panel-hint .ui-panel-container{
+	border-bottom: none;
+    position: relative;
+    padding:0;
+    line-height: 18px;
+    background: none;
+}
+
+/*弹出面板*/
+.ui-panel-popup{
+	display:none;
+	position:absolute; 
+	border: 1px solid #bbb;
+	background-color: #FFF;
+	padding:5px;
+	width:680px; 
+	top:32px;
+	left:160px;
+	z-index:9999; 
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	padding:5px;
+}
+.ui-panel-popup-container {
+	padding:10px 5px 10px 5px;
+}
+.ui-panel-popup-container .ui-panel-popup-closebtn{ 
+	position:absolute; 
+	right:10px; 
+	top: 2px; 
+	font-size:14px; 
+	font-weight:bold;
+}
+.ui-panel-popup .ui-tiptext-arrow em{
+	color:#bbb;
+}
+.ui-panel-popup .ui-tiptext-arrow span{
+	color:#fff;
+}

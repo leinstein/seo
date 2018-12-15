@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+/* alice 风格重载 */
+textarea{
+	font-family: "Microsoft YaHei";
+}
+/* ==== box风格重写 ====*/
+
+/*重置默认ui-box样式*/
+.ui-box{
+	background-color:#FFFFFF;
+	padding:0;
+	font-size:13px;
+}
+/*重置字体大小*/
+.ui-box-head .ui-box-head-title{
+	font-size:15px;
+}
+/* 缩小内边距 */
+.ui-box-content{
+	padding:8px;
+}
+/* 重写背景 */
+.ui-box-head {
+	background: #FFFFFF;
+}
+
+/* ==== 翻页框重写 ====*/
+
+/* 背景色重写, 修改为蓝色  */
+.ui-paging a.ui-paging-current, .ui-paging a.ui-paging-item:hover {
+	color: #FFF;
+	background: #3268F0;
+}
+
+/* ==== 表格风格重写 ====*/
+
+/* 去掉顶部的横线 */
+.ui-table-follow{
+	border-top:none;
+}
+.ui-table tr{
+	color:#333;
+}
+.ui-table thead{
+	color:#333;
+}
+.ui-table thead th{
+	font-weight:bold;
+}
+
+/* ==== 按钮风格重写 ==== */
+.ui-button{
+	padding:0 15px;
+	margin:2px;
+}
+.ui-button-lblue, .ui-button-mblue, .ui-button-sblue {
+  color: #fff;
+  border: 1px solid #00aaee;
+  background-color: #00aaee;
+}
+
+/* ====== 表单风格重写 ====== */
+.ui-input {
+  padding: 3px 5px;
+  line-height: 18px;
+  border: 1px solid #c1c1c1;
+  color: #595959;
+  font-size: 13px;
+}
+
+/* ==== 列表风格重写 ==== */
+.ui-list-item {
+    font-size: 11px;
+}
+
+/*==== 提示文本风格重写 ===== */
+.ui-tiptext{
+	font-size:14px;
+}
+
+/*==== 选项卡 ====*/
+/*选中风格，顶上加横线*/
+.ui-tab-item-current a {
+    height: 33px;
+    border-top: 1px solid #00aaee;
+}
+
+/*可切换的tab面板风格重写*/
+.ui-switchable-content{
+	position: relative;
+    padding: 15px;
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+/*==== 表单风格 ===== */
+.ui-form{
+	font-size:13px;
+}
+
+/*====提示框风格 ===== */
+.ui-tipbox .ui-tipbox-icon {
+  top: 28px;
+  left: 20px;
+}
+.ui-tipbox-content {
+  margin: 14px 0 14px 67px; 
+}
+.ui-tipbox-bottomline {
+  background: #fff;
+  border: 1px solid transparent;
+  _border-color: tomato;
+  _filter: chroma(color=tomato);
+  border-bottom:1px solid #eee;
+}
+.ui-tipbox-content h3.ui-tipbox-title, .ui-tipbox-content-simple h3.ui-tipbox-title {
+  font-size: 15px;
+}
+.ui-tipbox-explain {
+  color: #666;
+  font-size: 14px;
+}

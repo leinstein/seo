@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+/*------------------遮罩层样式 begin--------------------*/
+.ui-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	line-height: auto;
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+	filter: alpha(opacity = 0.6);
+}
+.ui-overlay .ui-overlay-showloading {
+	position: fixed;
+	color: #000;
+	background-color: #000;
+	top: 0;
+	left: 0;
+	width: 400px;
+	height: 400px;
+	z-index: 9999;
+	overflow: hidden;
+}
+.ui-overlay div {
+	font-size: 18px;
+	color: #fff;
+}
+.ui-overlay {
+	
+}
+/*------------------ 遮罩层样式 end--------------------*/
+
+/*------------------上传插件样式 begin--------------------*/
+/*基础样式*/
+.ui-uploader-form {
+	
+}
+/*上传区域 table 样式初始化*/
+.ui-uploader-form table {
+	width: 100%;
+}
+.ui-uploader-form table tr {
+	padding: 5px;
+}
+.ui-uploader-form table tr td {
+	padding: 5px;
+}
+.ui-uploader-form table tr td span {
+	display: inline-block;
+}
+.ui-uploader-form table tr td span.nofile {
+	display: inline-block;
+	color: #999;
+}
+
+/*非图片上传样式 begin =================> */
+.ui-uploader-form .ui-uploader-form-other {
+	
+}
+/* 上传成功后a标签样式*/
+.ui-uploader-form .ui-uploader-form-a {
+	width: 80%;
+}
+/* 上传成功后删除按钮样式*/
+.ui-uploader-form .ui-uploader-form-button {
+	height: 20px;
+	width: 50px;
+	background: #fff;
+	border: 1px solid #888;
+	margin-left: 5px;
+	margin-right: 10px;
+	float: right;
+}
+
+/*图片上传样式 begin =================> */
+.ui-uploader-form .ui-uploader-form-img {
+	position: relative;
+	width: 150px;
+	height:150px;
+	background: url(../../img/add.png) no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	border: none;
+}
+.ui-uploader-form .ui-uploader-form-img .ui-uploader-form-field {
+	position: absolute;
+	width: 150px;
+	height:150px;
+	font-size:50px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	cursor: pointer;
+}
+.ui-uploader-form .ui-uploader-form-show-img{
+	position: relative;
+	width: 200px;
+}
+.ui-uploader-form .ui-uploader-form-show-img .ui-img {
+	width: 200px;
+}
+.ui-uploader-form .ui-uploader-form-show-img .ui-icon-delete{
+	position: absolute;
+	right: -12px;
+	top: -12px;
+	width: 30px;
+	height: 30px;
+	background: url(../../img/icon-delete.png) no-repeat;
+	cursor: pointer;
+}
+/*图片上传样式 end*/
+/*add 按钮区域样式 begin*/
+.ui-uploader-form .ui-uploader-form-add{
+	/*float: right;*/
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+	background: url(../../img/icon-add.png) no-repeat;
+	cursor: pointer;
+}
+/*minus 按钮区域样式*/
+.ui-uploader-form .ui-uploader-form-minus{
+	/*float: right;*/
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 10px;
+	background: url(../../img/icon-minus.png) no-repeat;
+	cursor: pointer;
+}
+/*删除按钮区域样式*/
+.ui-uploader-form .ui-img-delete{
+	height: 30px;
+	width: 50px;
+	border: none;
+	margin-left: 5px;
+	margin-right: 10px;
+	float: right;
+	background: url(../../img/icon-clear.png) no-repeat;
+	cursor: pointer;
+}
+
+/*简单样式 基于ul li begin*/
+.ui-uploader-form .ui-uploader-form-ul{
+	padding: 5px;
+	border:none;
+	border-left: none;
+	border-right: none;
+	border-bottom:none
+}
+.ui-uploader-form .ui-uploader-form-li{
+	width: 100%;
+	height: 40px;
+	margin: 5px 0;
+}
+
+.ui-uploader-form .ui-uploader-form-li.isimg{
+	height: 140px;
+}
+.ui-uploader-form .ui-uploader-form-filename{
+	display: inline-block;
+	float: left;
+	width: 20%;
+}
+
+.ui-uploader-form .ui-uploader-form-filefield-short{
+	display: inline-block;
+	float: left;
+	width: 75%;
+}
+
+.ui-uploader-form .ui-uploader-form-filefield-long{
+	display: inline-block;
+	float: left;
+	width: 95%;
+}
+
+/*------------------上传插件样式 end--------------------*/

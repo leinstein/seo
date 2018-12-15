@@ -1,0 +1,50 @@
+<div class="left-wrapper fl">
+	<div class="nav-header">
+		优站宝
+	</div>
+	<dl>
+		<dt class="child">
+			<a href="{:U('Index/home')}"><i class="iconfont">&#xe60a;</i>产品概况</a>
+		</dt>
+		
+	</dl>
+	<dl>
+		<dt class="child">
+			<a href="{:U('Site/index')}"><i class="iconfont">&#xe633;</i>我的站点</a>
+		</dt>
+		
+	</dl>
+	<dl>
+		<dt>
+			<i class="iconfont">&#xe612;</i>优化中心
+		</dt>
+		<dd>
+			<a href="{:U('Keyword/add')}">关键词查询</a>
+		</dd>
+		<dd>
+			<a href="{:U('Cart/index')}">关键词清单</a>
+		</dd>
+		<dd>
+			<a href="{:U('Site/effect')}">站点监控</a>
+		</dd>
+		<dd>
+			<a href="{:U('Keyword/effect')}">关键词排名</a>
+		</dd>
+	</dl>
+	<dl>
+		<dt>
+			<i class="iconfont">&#xe66a;</i>账户管理
+		</dt>
+		<!-- <dd>
+			<a href="{:U('User/index')}">个人中心</a>
+		</dd> -->
+		<dd>
+			<a href="{:U('User/updatePage')}">基本信息</a>
+		</dd>
+		<dd>
+			<a href="{:U('User/updatePasswordPage')}">修改密码</a>
+		</dd>
+	</dl>
+</div>
+
+
